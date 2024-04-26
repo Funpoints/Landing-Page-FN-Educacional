@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;600&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #ffffff;
+}
+
+/*--------------------- Inicio Header ---------------------*/
+.navbar {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+}
+
+.logo-navbar{
+    padding: 0 0 0 4rem;
+    width: 140px;
+}
+
+.brand-title {
+    font-size: 1.5rem;
+    margin: .5rem;
+}
+
+.navbar-links {
+    height: 100%;
+    margin-left: auto;
+    padding-right: 5rem;
+}
+
+.navbar-links ul {
+    display: flex;
+    gap: 2rem;
+}
+
+.navbar-links li {
+    list-style: none;
+}
+
+.navbar-links li a {
+    display: block;
+    color: #000000;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 1.2rem;
+    text-underline-offset: 7px;
+}
+
+.navbar-links li:hover {
+    transform: scale(1.1);
+}
+
+.toggle-button {
+    position: absolute;
+    top: .75rem;
+    right: 0;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 60px;
+    height: 21px;
+}
+
+.toggle-button .bar {
+    height: 3px;
+    width: 40%;
+    border-radius: 10px;
+}
+
+header .section-headear {
+    margin-left: 4rem;
+    top: 8rem;
+    position: absolute;
+    padding: 1.09vw;
+}
+
+header .section-headear h1 {
+    font-size: 4.7rem;
+    font-family: Roboto;
+    color: #000000;
+}
+
+header .section-headear .subtitle-1 {
+    font-size: 1.5rem;
+    color: #000000;
+    width: 40rem;
+    margin-top: 1vw;
+    font-weight: 500;
+    font-family: Poppins;
+}
+
+header .section-headear .subtitle-2 {
+    font-size: 1rem;
+    color: #000000;
+    width: 25rem;
+    margin-top: 10px;
+    font-weight: 300;
+    font-family: Poppins;
+}
+
+header .section-headear .btn-section-headear{
+    width: 25rem;
+    height: 3.5rem;
+    margin-top: 2.5rem;
+    border-radius: 12px;
+    border: none;
+    background: #368D43;
+    color: #ffffff;
+    font-size: 1.1rem;
+    cursor: pointer;
+    font-weight: 500;
+    font-family: Roboto;
+    -webkit-box-shadow: 2px 2px 12px -3px rgba(0,0,0,0.85); 
+    box-shadow: 2px 2px 12px -3px rgba(0,0,0,0.85);
+}
+
+header .section-headear .btn-section-headear:hover{
+    transform: scale(1.04);
+}
+
+header .header-banner-img{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 1500px;
+}
+
+header .header-banner-decore{
+    position: absolute;
+    width: 12%;
+    top: 0;
+}
+
+/*--------------------- Fim Header ---------------------*/
+
+@media (max-width: 800px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .toggle-button {
+        display: flex;
+    }
+
+    .navbar-links {
+        display: none;
+        width: 100%;
+    }
+
+    .navbar-links ul {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .navbar-links ul li {
+        text-align: center;
+    }
+
+    .navbar-links ul li a {
+        padding: .5rem 1rem;
+    }
+
+    .navbar-links.active {
+        display: flex;
+    }
+}
