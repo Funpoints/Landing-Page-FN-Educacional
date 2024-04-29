@@ -9,7 +9,7 @@
 body {
     margin: 0;
     padding: 0;
-    background: #ffffff;
+    background: #F3F3F3;
 }
 
 /*--------------------- Inicio Header ---------------------*/
@@ -152,11 +152,11 @@ main{
     margin-top: 55rem;
 }
 
+/*--------------------- container-p1 ---------------------*/
 main .container-p1{
     display: flex;
     flex-direction: column;
     align-items: center;
-
 }
 
 main .container-p1 .br-title{
@@ -165,7 +165,7 @@ main .container-p1 .br-title{
 
 main .container-p1 h1{
     font-size: 2rem;
-    font-family: Poppins;
+    font-family: Roboto;
     color: #2D2D2D;
     text-align: center;
 }
@@ -175,6 +175,62 @@ main .container-p1 iframe{
     width: 900px;
     height: 500px;
     margin-top: 2rem;
+}
+
+/*--------------------- container-p2 ---------------------*/
+main .container-p2{
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+    background: #ffffff;
+    height: 85vh;
+}
+
+main .container-p2 .img-container-p2{
+    position: absolute;
+    width: 80rem;
+}
+
+main .container-p2 .owl-carousel{
+    padding: 20px;
+    width: 90%;
+    margin-top: 10rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main .container-p2 .owl-carousel .swiper-slide{
+    background: #7a7a7a20;
+    backdrop-filter: blur(10px);
+    padding: 1rem;
+    height: 20rem;
+    text-align: center;
+    border-radius: 20px;    
+    border: #6d6d6d1c solid 1px;
+}
+
+main .container-p2 .owl-carousel .swiper-slide h1{
+    font-size: 1.5rem;
+    font-family: Roboto;
+    color: #2D2D2D;
+}
+
+main .container-p2 .owl-carousel .swiper-slide img{
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+main .container-p2 .owl-carousel p{
+    font-size: 1.1rem;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Poppins;
+    font-weight: 500;
+    color: #2D2D2D;
 }
 
 /*--------------------- Responsividade ---------------------*/
@@ -229,6 +285,17 @@ main .container-p1 iframe{
     main{
         margin-top: 45rem;
     }
+
+    /*--------------------- container-p2 ---------------------*/
+    main .container-p2 .owl-carousel .swiper-slide img{
+        width: 80px;
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    main .container-p2 .owl-carousel p{
+        font-size: 1rem;
+    }
 }
 
 @media screen and (max-width: 1300px) {
@@ -254,6 +321,29 @@ main .container-p1 iframe{
     main{
         margin-top: 40rem;
     }
+
+    /*--------------------- Container-p2 ---------------------*/
+    main .container-p2{
+        display: flex;
+        justify-content: center;
+        margin-top: 5rem;
+        background: #ffffff;
+        height: 58vw;
+    }
+
+    main .container-p2 .owl-carousel{
+        width: 95%;
+        margin-top: 8vw;
+    }
+    
+
+    main .container-p2 .img-container-p2{
+        width: 100vw;
+    }
+
+    main .container-p2 .owl-carousel .swiper-slide{
+        height: 25rem;
+    }
 }
 
 @media screen and (max-width: 1000px) {
@@ -278,6 +368,15 @@ main .container-p1 iframe{
         width: 700px;
         height: 400px;
         margin-top: 2rem;
+    }
+
+    /*--------------------- Container-p2 ---------------------*/
+    main .container-p2 .owl-carousel{
+        margin-top: 5vw;
+    }
+
+    main .container-p2 .owl-carousel .swiper-slide{
+        height: 21rem;
     }
 }
 
@@ -313,6 +412,11 @@ main .container-p1 iframe{
 
     .navbar-links.active {
         display: flex;
+    }
+
+    /*--------------------- Container-p2 ---------------------*/
+    main .container-p2 .owl-carousel{
+        margin-top: 3vw;
     }
 }
 
@@ -358,15 +462,33 @@ main .container-p1 iframe{
         display: block;
     }
 
-    main .container-p1 h1{
-        font-size: 1.5rem;
-    }
-
     main .container-p1 iframe{
         border-radius: 20px;
         width: 500px;
         height: 300px;
         margin-top: 2rem;
+    }
+
+    /*--------------------- Container-p2 ---------------------*/
+    main .container-p2{
+        margin-top: 8vw;
+    }
+
+    main .container-p2 .owl-carousel{
+        margin-top: 1vw;
+        width: 80%;
+    }
+
+    main .container-p2 .owl-carousel .swiper-slide{
+        height: 16rem;
+    }
+
+    main .container-p2 .owl-carousel .swiper-slide img{
+        width: 70px;
+    }
+
+    main .container-p2 .owl-carousel p{
+        font-size: 0.9rem;
     }
 }
 
@@ -421,6 +543,27 @@ main .container-p1 iframe{
         height: 300px;
         margin-top: 2rem;
     }
+
+    /*--------------------- Container-p2 ---------------------*/
+    main .container-p2{
+        height: 72vh;
+    }
+
+    main .container-p2 .owl-carousel{
+        width: 90%;
+    }
+
+    main .container-p2 .img-container-p2{
+        display: none;
+    }
+
+    main .container-p2 .owl-carousel .swiper-slide{
+        height: 19rem;
+    }
+
+    main .container-p2 .owl-carousel .swiper-slide h1{
+        font-size: 1.4rem;
+    }
 }
 
 @media screen and (max-width: 400px) {
@@ -468,6 +611,11 @@ main .container-p1 iframe{
     }
 
     main .container-p1 h1{
+        font-size: 1.2rem;
+    }
+
+    /*--------------------- Container-p2 ---------------------*/
+    main .container-p2 .owl-carousel .swiper-slide h1{
         font-size: 1.2rem;
     }
 }
