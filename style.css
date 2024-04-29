@@ -70,12 +70,6 @@ body {
     height: 21px;
 }
 
-/*.toggle-button .bar {
-    height: 3px;
-    width: 40%;
-    border-radius: 10px;
-}*/
-
 .toggle-button .bar {
     height: 3px;
     width: 100%;
@@ -88,12 +82,17 @@ header .section-headear {
     top: 8rem;
     position: absolute;
     padding: 1.09vw;
+    z-index: 1;
 }
 
 header .section-headear h1 {
     font-size: 4.7rem;
     font-family: Roboto;
     color: #000000;
+}
+
+.br-title-header{
+    display: none;
 }
 
 header .section-headear .subtitle-1 {
@@ -138,18 +137,100 @@ header .header-banner-img{
     position: absolute;
     right: 0;
     top: 0;
-    width: 1500px;
+    width: 1450px;
 }
 
 header .header-banner-decore{
     position: absolute;
-    width: 1000px;
+    width: 350px;
     top: 0;
 }
-
 /*--------------------- Fim Header ---------------------*/
 
+/*--------------------- Responsividade ---------------------*/
+@media screen and (max-width: 1850px) {
+    .br-title-header{
+        display: block;
+    }
+}
+
+@media screen and (max-width: 1600px) {
+/*--------------------- Header ---------------------*/
+    .navbar-links ul {
+        gap: 1rem;
+    }
+
+    .navbar-links li a {
+        display: block;
+        color: #000000;
+        font-family: Poppins;
+        font-weight: 500;
+        font-size: 1rem;
+        text-underline-offset: 7px;
+    }
+
+    .logo-navbar{
+        padding: 0 0 0 3rem;
+    }
+
+    header .section-headear h1 {
+        font-size: 4rem;
+    }
+
+    header .section-headear .subtitle-1 {
+        font-size: 1.4rem;
+    }
+    
+    header .section-headear .subtitle-2 {
+        font-size: 0.9rem;
+    }
+
+    header .header-banner-img{
+        width: 1200px;
+    }
+
+    header .header-banner-decore{
+        position: absolute;
+        width: 300px;
+        top: 0;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    /*--------------------- Header ---------------------*/
+    header .section-headear h1 {
+        font-size: 3.5rem;
+    }
+
+    header .section-headear .subtitle-1 {
+        font-size: 1.3rem;
+        width: 35rem;
+    }
+    
+    header .section-headear .subtitle-2 {
+        font-size: 0.8rem;
+    }
+
+    header .header-banner-img{
+        width: 1200px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    /*--------------------- Header ---------------------*/
+    header .header-banner-img{
+        display: none;
+    }
+
+    header .header-banner-decore{
+        position: absolute;
+        width: 250px;
+        top: 0;
+    }
+}
+
 @media (max-width: 800px) {
+    /*--------------------- Header ---------------------*/
     .navbar {
         flex-direction: column;
         align-items: flex-start;
@@ -175,9 +256,121 @@ header .header-banner-decore{
 
     .navbar-links ul li a {
         padding: .5rem 1rem;
+        color: #ffffff;
     }
 
     .navbar-links.active {
         display: flex;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    /*--------------------- Header ---------------------*/
+    .logo-navbar{
+        padding: 0 0 0 1rem;
+    }
+
+    header .section-headear {
+        margin-left: 2rem;
+    }
+
+    header .section-headear h1 {
+        font-size: 3rem;
+        font-family: Roboto;
+        color: #000000;
+    }
+
+    header .section-headear .subtitle-1 {
+        font-size: 1.1rem;
+        width: 30rem;
+    }
+    
+    header .section-headear .subtitle-2 {
+        font-size: 0.9rem;
+        width: 30rem;
+    }
+
+    header .section-headear .btn-section-headear{
+        width: 20rem;
+        height: 3rem;
+        font-size: 1rem;
+        margin-top: 2rem;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    /*--------------------- Header ---------------------*/
+    .logo-navbar{
+        padding: 0 0 0 0rem;
+        width: 110px;
+    }
+
+    .toggle-button {
+        top: 2rem;
+        right: 2rem;
+        width: 30px;
+    }
+
+    header .section-headear {
+        margin-left: 1rem;
+        top: 7rem;
+    }
+
+    header .section-headear h1 {
+        font-size: 2.1rem;
+    }
+
+    header .section-headear .subtitle-1 {
+        font-size: 1.1rem;
+        width: 21.875rem;
+    }
+    
+    header .section-headear .subtitle-2 {
+        font-size: 0.9rem;
+        width: 21.875rem;
+    }
+
+    header .header-banner-decore{
+        width: 250px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    /*--------------------- Header ---------------------*/
+    .logo-navbar{
+        padding: 0 0 0 0rem;
+        width: 110px;
+    }
+
+    .toggle-button {
+        top: 2rem;
+        right: 2rem;
+        width: 30px;
+    }
+
+    header .section-headear {
+        margin-left: 1rem;
+        top: 6.5rem;
+    }
+
+    header .section-headear h1 {
+        font-size: 1.8rem;
+    }
+
+    header .section-headear .subtitle-1 {
+        font-size: 1.1rem;
+        width: 100%;
+    }
+    
+    header .section-headear .subtitle-2 {
+        font-size: 0.9rem;
+        width: 100%;
+    }
+
+    header .section-headear .btn-section-headear{
+        width: 17.5rem;
+        height: 2.9rem;
+        font-size: 0.9rem;
+        margin-top: 1.5rem;
     }
 }
