@@ -263,6 +263,7 @@ main .container-p3 .img-container-p3 {
     position: absolute;
     width: 75rem;
     right: 0;
+    z-index: -1;
 }
 
 main .container-p3 .owl-carousel{
@@ -327,7 +328,10 @@ main .container-p4{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 17rem;
+    margin-top: 4rem;
+    background: #ffffff;
+    height: 52rem;
+    padding: 5rem 0;
 }
 
 main .container-p4 h1{
@@ -364,9 +368,18 @@ main .container-p4 .owl-carousel img{
 }
 
 /*--------------------- Responsividade ---------------------*/
+@media screen and (max-width: 2262px) {
+    main .container-p4{
+        margin-top: 4.5rem;
+    }
+}
 @media screen and (max-width: 1850px) {
     .br-title-header{
         display: block;
+    }
+
+    main .container-p4{
+        margin-top: 6.2rem;
     }
 
     /*--------------------- container-p3 ---------------------*/
@@ -454,7 +467,7 @@ main .container-p4 .owl-carousel img{
 
     /*--------------------- container-p4 ---------------------*/
     main .container-p4{
-        margin-top: 19rem;
+        margin-top: 9.5rem;
     }
 }
 
@@ -515,7 +528,7 @@ main .container-p4 .owl-carousel img{
 
     /*--------------------- container-p4 ---------------------*/
     main .container-p4{
-        margin-top: 11rem;
+        margin-top: 4.7rem;
     }
 
     main .container-p4 .img-container-p4 {
@@ -524,6 +537,27 @@ main .container-p4 .owl-carousel img{
 
     main .container-p4 .owl-carousel{
         width: 80%;
+    }
+}
+
+@media screen and (max-width: 1250px){
+    /*--------------------- container-p4 ---------------------*/
+    main .container-p4{
+        height: 62rem;
+    }
+}
+
+@media screen and (max-width: 1200px){
+    /*--------------------- container-p4 ---------------------*/
+    main .container-p4{
+        height: 60rem;
+    }
+}
+
+@media screen and (max-width: 1100px){
+    /*--------------------- container-p4 ---------------------*/
+    main .container-p4{
+        height: 55rem;
     }
 }
 
@@ -583,7 +617,9 @@ main .container-p4 .owl-carousel img{
 
     /*--------------------- Container-p4 ---------------------*/
     main .container-p4{
-        margin-top: 15rem;
+        margin-top: 7.6rem;
+        height: 43rem;
+        padding: 2rem;
     }
 
     main .container-p4 h1{
@@ -644,7 +680,7 @@ main .container-p4 .owl-carousel img{
 
     /*--------------------- Container-p4 ---------------------*/
     main .container-p4{
-        margin-top: 11rem;
+        margin-top: 4.5rem;
     }
 }
 
@@ -755,7 +791,8 @@ main .container-p4 .owl-carousel img{
 
     /*--------------------- container-p4 ---------------------*/
     main .container-p4 {
-        margin-top: 15rem;
+        margin-top: 8.7rem;
+        height: 36rem;
     }
 
     main .container-p4 .img-container-p4 {
@@ -769,8 +806,8 @@ main .container-p4 .owl-carousel img{
 
 @media screen and (max-width: 660px) {
     /*--------------------- container-p4 ---------------------*/
-     main .container-p4 {
-        margin-top: 13rem;
+    main .container-p4 {
+        height: 31rem;
     }
 
     main .container-p4 .img-container-p4 {
@@ -893,6 +930,7 @@ main .container-p4 .owl-carousel img{
     /*--------------------- Container-p4 ---------------------*/
     main .container-p4 {
         margin-top: 3rem;
+        height: 22rem;
     }
 
     main .container-p4 h1{
@@ -987,5 +1025,6 @@ main .container-p4 .owl-carousel img{
     /*--------------------- Container-p4 ---------------------*/
     main .container-p4 h1{
         font-size: 1.2rem;
+        height: 21rem;
     }
 }
