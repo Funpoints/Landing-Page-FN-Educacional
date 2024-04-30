@@ -36,3 +36,16 @@ $('#carousel-1').owlCarousel({
       },
   }
 })
+
+$('#carousel-2').owlCarousel({
+  loop:true,
+  margin: 20,
+  autoplay: true,
+  autoplayTimeout: 4000,
+  nav:true,
+  responsive:{
+      0:{
+          items:1
+      },
+  }
+})
