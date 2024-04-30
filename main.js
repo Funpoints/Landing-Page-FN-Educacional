@@ -22,7 +22,7 @@ $('#carousel-1').owlCarousel({
   loop:true,
   margin: 20,
   autoplay: false,
-  autoplayTimeout: 4000,
+  autoplayTimeout: 6000,
   nav:true,
   responsive:{
       0:{
@@ -41,7 +41,20 @@ $('#carousel-2').owlCarousel({
   loop:true,
   margin: 20,
   autoplay: true,
-  autoplayTimeout: 4000,
+  autoplayTimeout: 6000,
+  nav:true,
+  responsive:{
+      0:{
+          items:1
+      },
+  }
+})
+
+$('#carousel-3').owlCarousel({
+  loop:true,
+  margin: 20,
+  autoplay: true,
+  autoplayTimeout: 6000,
   nav:true,
   responsive:{
       0:{

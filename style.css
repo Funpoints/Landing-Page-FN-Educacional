@@ -267,7 +267,7 @@ main .container-p3 .img-container-p3 {
 
 main .container-p3 .owl-carousel{
     padding: 2rem;
-    width: 60%;
+    width: 45%;
     margin-top: 4rem;
     margin-left: auto;
     margin-right: auto;
@@ -322,15 +322,61 @@ main .container-p3 .btn-section-headear{
     box-shadow: 2px 2px 12px -3px rgba(0,0,0,0.85);
 }
 
+/*--------------------- container-p4 ---------------------*/
+main .container-p4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 17rem;
+}
+
+main .container-p4 h1{
+    font-size: 2rem;
+    font-family: Roboto;
+    color: #2D2D2D;
+    text-align: center;
+    z-index: 1;
+}
+
+main .container-p4 .img-container-p4 {
+    position: absolute;
+    width: 60rem;
+    left: 0;
+}
+
+main .container-p4 .owl-carousel{
+    padding: 2rem;
+    width: 45%;
+    margin-top: 4rem;
+    margin-left: auto;
+    margin-right: auto;
+    background: #7a7a7a20;
+    border-radius: 50px;
+    -webkit-box-shadow: 4px 4px 20px 2px rgba(0,0,0,0.22); 
+    box-shadow: 4px 4px 20px 2px rgba(0,0,0,0.22);
+}
+
+main .container-p4 .owl-carousel img{
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+}
+
 /*--------------------- Responsividade ---------------------*/
 @media screen and (max-width: 1850px) {
     .br-title-header{
         display: block;
     }
 
-    /*--------------------- container-p2 ---------------------*/
+    /*--------------------- container-p3 ---------------------*/
     main .container-p3 .owl-carousel{
-        width: 80%;
+        width: 65%;
+    }
+
+    /*--------------------- container-p4 ---------------------*/
+    main .container-p4 .owl-carousel{
+        width: 65%;
     }
 }
 
@@ -405,6 +451,11 @@ main .container-p3 .btn-section-headear{
         width: 50rem;
         font-size: 1rem;
     }
+
+    /*--------------------- container-p4 ---------------------*/
+    main .container-p4{
+        margin-top: 19rem;
+    }
 }
 
 @media screen and (max-width: 1300px) {
@@ -453,9 +504,26 @@ main .container-p3 .btn-section-headear{
         height: 25rem;
     }
 
-    /*--------------------- container-p2 ---------------------*/
+    /*--------------------- container-p3 ---------------------*/
     main .container-p3 .img-container-p3 {
         width: 70rem;
+    }
+
+    main .container-p3 .owl-carousel{
+        width: 80%;
+    }
+
+    /*--------------------- container-p4 ---------------------*/
+    main .container-p4{
+        margin-top: 11rem;
+    }
+
+    main .container-p4 .img-container-p4 {
+        width: 86.154vw;
+    }
+
+    main .container-p4 .owl-carousel{
+        width: 80%;
     }
 }
 
@@ -512,6 +580,27 @@ main .container-p3 .btn-section-headear{
     main .container-p3 .btn-section-headear{
         margin-top: 4rem;
     }
+
+    /*--------------------- Container-p4 ---------------------*/
+    main .container-p4{
+        margin-top: 15rem;
+    }
+
+    main .container-p4 h1{
+        font-size: 1.5rem;
+    }
+
+    main .container-p4 .img-container-p4 {
+        width: 47rem;
+    }
+
+    main .container-p4 .owl-carousel{
+        margin-top: 3rem;
+    }
+
+    main .container-p4 .owl-carousel img{
+        width: 600px;
+    }
 }
 
 @media (max-width: 800px) {
@@ -551,6 +640,11 @@ main .container-p3 .btn-section-headear{
     /*--------------------- Container-p2 ---------------------*/
     main .container-p2 .owl-carousel{
         margin-top: 3vw;
+    }
+
+    /*--------------------- Container-p4 ---------------------*/
+    main .container-p4{
+        margin-top: 11rem;
     }
 }
 
@@ -657,6 +751,30 @@ main .container-p3 .btn-section-headear{
         width: 20rem;
         height: 3rem;
         font-size: 1rem;
+    }
+
+    /*--------------------- container-p4 ---------------------*/
+    main .container-p4 {
+        margin-top: 15rem;
+    }
+
+    main .container-p4 .img-container-p4 {
+        width: 40rem;
+    }
+
+    main .container-p4 .owl-carousel img{
+        width: 450px;
+    }
+}
+
+@media screen and (max-width: 660px) {
+    /*--------------------- container-p4 ---------------------*/
+     main .container-p4 {
+        margin-top: 13rem;
+    }
+
+    main .container-p4 .img-container-p4 {
+        width: 35rem;
     }
 }
 
@@ -771,6 +889,32 @@ main .container-p3 .btn-section-headear{
         margin-right: auto;
         margin-top: 2rem;
     }
+
+    /*--------------------- Container-p4 ---------------------*/
+    main .container-p4 {
+        margin-top: 3rem;
+    }
+
+    main .container-p4 h1{
+        font-size: 1.4rem;
+    }
+
+    main .container-p4 .img-container-p4 {
+        display: none;
+    }
+
+    main .container-p4 .owl-carousel{
+        margin-top: 1rem;
+        border-radius: 20px;
+        -webkit-box-shadow: none; 
+        box-shadow: none;
+        padding: 0.5rem;
+        width: 90%;
+    }
+
+    main .container-p4 .owl-carousel img{
+        width: 320px;
+    }
 }
 
 @media screen and (max-width: 400px) {
@@ -838,5 +982,10 @@ main .container-p3 .btn-section-headear{
         width: 17.5rem;
         height: 2.9rem;
         font-size: 0.9rem;
+    }
+
+    /*--------------------- Container-p4 ---------------------*/
+    main .container-p4 h1{
+        font-size: 1.2rem;
     }
 }
