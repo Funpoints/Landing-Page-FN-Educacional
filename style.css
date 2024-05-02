@@ -367,6 +367,39 @@ main .container-p4 .owl-carousel img{
     margin-top: 2rem;
 }
 
+/*--------------------- container-p5 ---------------------*/
+main .container-p5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4rem;
+    padding: 5rem 0;
+}
+
+main .container-p5 .img-container-p5 {
+    position: absolute;
+    width: 65rem;
+    right: 0;
+}
+
+main .container-p5 h1{
+    font-size: 2rem;
+    font-family: Roboto;
+    color: #2D2D2D;
+    text-align: center;
+    z-index: 1;
+    width: 60rem;
+    margin-bottom: 4rem;
+}
+
+main .container-p5 iframe{
+    border-radius: 20px;
+    width: 900px;
+    height: 500px;
+    margin-top: 2rem;
+    z-index: 1;
+}
+
 /*--------------------- Responsividade ---------------------*/
 @media screen and (max-width: 2262px) {
     main .container-p4{
@@ -538,12 +571,30 @@ main .container-p4 .owl-carousel img{
     main .container-p4 .owl-carousel{
         width: 80%;
     }
+
+    /*--------------------- container-p5 ---------------------*/
+    main .container-p5{
+        margin-top: 11rem;
+    }
+
+    main .container-p5 h1{
+        margin-bottom: 3rem;
+    }
+    
+    main .container-p5 .img-container-p5 {
+        width: 86.154vw;
+    }
 }
 
 @media screen and (max-width: 1250px){
     /*--------------------- container-p4 ---------------------*/
     main .container-p4{
         height: 62rem;
+    }
+
+    /*--------------------- container-p5 ---------------------*/
+    main .container-p5{
+        margin-top: 2rem;
     }
 }
 
@@ -619,7 +670,6 @@ main .container-p4 .owl-carousel img{
     main .container-p4{
         margin-top: 7.6rem;
         height: 43rem;
-        padding: 2rem;
     }
 
     main .container-p4 h1{
@@ -636,6 +686,22 @@ main .container-p4 .owl-carousel img{
 
     main .container-p4 .owl-carousel img{
         width: 600px;
+    }
+
+    /*--------------------- Container-p2 ---------------------*/
+    main .container-p5 iframe{
+        width: 700px;
+        height: 400px;
+        margin-top: 2rem;
+    }
+
+    main .container-p5 h1{
+        font-size: 1.5rem;
+        width: 90%;
+    }
+
+    main .container-p5 .img-container-p5 {
+        width: 55rem;
     }
 }
 
@@ -802,6 +868,21 @@ main .container-p4 .owl-carousel img{
     main .container-p4 .owl-carousel img{
         width: 450px;
     }
+
+    /*--------------------- container-p5 ---------------------*/
+    main .container-p5 .img-container-p5 {
+        width: 45rem;
+    }
+
+    main .container-p5 h1{
+        margin-bottom: 2rem;
+    }
+
+    main .container-p5 iframe{
+        width: 500px;
+        height: 300px;
+        margin-top: 2rem;
+    }
 }
 
 @media screen and (max-width: 660px) {
@@ -812,6 +893,11 @@ main .container-p4 .owl-carousel img{
 
     main .container-p4 .img-container-p4 {
         width: 35rem;
+    }
+
+    /*--------------------- container-p5 ---------------------*/
+    main .container-p5{
+        padding: 2rem 0;
     }
 }
 
@@ -929,8 +1015,9 @@ main .container-p4 .owl-carousel img{
 
     /*--------------------- Container-p4 ---------------------*/
     main .container-p4 {
-        margin-top: 3rem;
+        margin-top: 2rem;
         height: 22rem;
+        padding: 3rem 0;
     }
 
     main .container-p4 h1{
@@ -952,6 +1039,22 @@ main .container-p4 .owl-carousel img{
 
     main .container-p4 .owl-carousel img{
         width: 320px;
+    }
+
+    /*--------------------- Container-p5 ---------------------*/    
+    main .container-p5 iframe{
+        width: 90%;
+        height: 300px;
+        margin-top: 2rem;
+    }
+
+    main .container-p5 .img-container-p5 {
+        display: none;
+    }
+
+    main .container-p5 h1{
+        font-size: 1.4rem;
+        margin-bottom: 0rem;
     }
 }
 
@@ -1025,6 +1128,12 @@ main .container-p4 .owl-carousel img{
     /*--------------------- Container-p4 ---------------------*/
     main .container-p4 h1{
         font-size: 1.2rem;
-        height: 21rem;
+        height: auto;
+    }
+
+    /*--------------------- Container-p5 ---------------------*/
+    main .container-p5 h1{
+        font-size: 1.2rem;
+        width: 95%;
     }
 }
