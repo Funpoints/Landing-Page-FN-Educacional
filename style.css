@@ -259,6 +259,15 @@ main .container-p3 .subtitle-1 {
     text-align: center;
 }
 
+main .container-p3 .img-container-p3-passaro {
+    position: absolute;
+    width: 20rem;
+    left: 0;
+    z-index: -1;
+    margin-top: -9rem;
+    transform: rotate(12deg);
+}
+
 main .container-p3 .img-container-p3 {
     position: absolute;
     width: 75rem;
@@ -330,8 +339,17 @@ main .container-p4{
     align-items: center;
     margin-top: 4rem;
     background: #ffffff;
-    height: 52rem;
+    height: 82rem;
     padding: 5rem 0;
+}
+
+main .container-p4 iframe{
+    border-radius: 20px;
+    width: 900px;
+    height: 500px;
+    margin-top: 2rem;
+    z-index: 1;
+    margin-bottom: 5rem;
 }
 
 main .container-p4 h1{
@@ -346,12 +364,13 @@ main .container-p4 .img-container-p4 {
     position: absolute;
     width: 60rem;
     left: 0;
+    margin-top: 500px;
 }
 
 main .container-p4 .owl-carousel{
     padding: 2rem;
     width: 45%;
-    margin-top: 4rem;
+    margin-top: 3rem;
     margin-left: auto;
     margin-right: auto;
     background: #7a7a7a20;
@@ -580,6 +599,11 @@ main .container-p6 .btn-section-headear img{
         width: 65%;
     }
 
+    main .container-p3 .img-container-p3-passaro {
+        width: 15rem;
+        margin-top: -9rem;
+    }
+
     /*--------------------- container-p4 ---------------------*/
     main .container-p4 .owl-carousel{
         width: 65%;
@@ -675,6 +699,11 @@ main .container-p6 .btn-section-headear img{
     main .container-p3 .subtitle-1 {
         font-size: 1.2rem;
         width: 80%;
+    }
+
+    main .container-p3 .img-container-p3-passaro {
+        width: 12rem;
+        margin-top: -5rem;
     }
 
     main .container-p3 .owl-carousel{
@@ -786,6 +815,10 @@ main .container-p6 .btn-section-headear img{
         width: 70rem;
     }
 
+    main .container-p3 .img-container-p3-passaro {
+        display: none;
+    }
+
     main .container-p3 .owl-carousel{
         width: 80%;
     }
@@ -883,8 +916,15 @@ main .container-p6 .btn-section-headear img{
 
 @media screen and (max-width: 1250px){
     /*--------------------- container-p4 ---------------------*/
-    main .container-p4{
+    /*main .container-p4{
         height: 62rem;
+    }*/
+
+    main .container-p4 .img-container-p4 {
+        position: absolute;
+        width: 60rem;
+        left: 0;
+        margin-top: 500px;
     }
 
     /*--------------------- container-p5 ---------------------*/
@@ -895,9 +935,9 @@ main .container-p6 .btn-section-headear img{
 
 @media screen and (max-width: 1200px){
     /*--------------------- container-p4 ---------------------*/
-    main .container-p4{
+    /*main .container-p4{
         height: 60rem;
-    }
+    }*/
 
     /*--------------------- container-p6 ---------------------*/
     main .container-p6{
@@ -907,9 +947,9 @@ main .container-p6 .btn-section-headear img{
 
 @media screen and (max-width: 1100px){
     /*--------------------- container-p4 ---------------------*/
-    main .container-p4{
+    /*main .container-p4{
         height: 55rem;
-    }
+    }*/
 }
 
 @media screen and (max-width: 1000px) {
@@ -969,7 +1009,9 @@ main .container-p6 .btn-section-headear img{
     /*--------------------- Container-p4 ---------------------*/
     main .container-p4{
         margin-top: 7.6rem;
-        height: 43rem;
+        /*height: 43rem;*/
+        height: 70rem;
+        padding: 2rem 0;
     }
 
     main .container-p4 h1{
@@ -986,6 +1028,13 @@ main .container-p6 .btn-section-headear img{
 
     main .container-p4 .owl-carousel img{
         width: 600px;
+    }
+
+    main .container-p4 iframe{
+        border-radius: 20px;
+        width: 700px;
+        height: 400px;
+        margin-top: 2rem;
     }
 
     /*--------------------- Container-p5 ---------------------*/
@@ -1171,7 +1220,7 @@ main .container-p6 .btn-section-headear img{
     /*--------------------- container-p4 ---------------------*/
     main .container-p4 {
         margin-top: 8.7rem;
-        height: 36rem;
+        height: 64rem;
     }
 
     main .container-p4 .img-container-p4 {
@@ -1180,6 +1229,14 @@ main .container-p6 .btn-section-headear img{
 
     main .container-p4 .owl-carousel img{
         width: 450px;
+    }
+
+    main .container-p4 iframe{
+        border-radius: 20px;
+        width: 500px;
+        height: 300px;
+        margin-top: 2rem;
+        margin-bottom: 3rem;
     }
 
     /*--------------------- container-p5 ---------------------*/
@@ -1209,7 +1266,8 @@ main .container-p6 .btn-section-headear img{
 @media screen and (max-width: 660px) {
     /*--------------------- container-p4 ---------------------*/
     main .container-p4 {
-        height: 31rem;
+        margin-top: 8.7rem;
+        height: 60rem;
     }
 
     main .container-p4 .img-container-p4 {
@@ -1337,7 +1395,7 @@ main .container-p6 .btn-section-headear img{
     /*--------------------- Container-p4 ---------------------*/
     main .container-p4 {
         margin-top: 2rem;
-        height: 22rem;
+        height: 48rem;
         padding: 3rem 0;
     }
 
@@ -1362,7 +1420,18 @@ main .container-p6 .btn-section-headear img{
         width: 320px;
     }
 
+    main .container-p4 iframe{
+        border-radius: 20px;
+        width: 90%;
+        height: 300px;
+        margin-top: 1rem;
+    }
+
     /*--------------------- Container-p5 ---------------------*/    
+    main .container-p5 {
+        margin-top: 1rem;
+    }
+    
     main .container-p5 iframe{
         width: 90%;
         height: 300px;
@@ -1378,11 +1447,12 @@ main .container-p6 .btn-section-headear img{
         margin-bottom: 0rem;
     }
 
+
     /*--------------------- Container-p6 ---------------------*/
     main .container-p6{
         margin-top: 1rem;
     } 
-    
+
     main .container-p6 h1{
         font-size: 1.5rem;
         margin-top: 2rem;
