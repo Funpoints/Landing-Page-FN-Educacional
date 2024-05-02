@@ -372,7 +372,7 @@ main .container-p5{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 4rem;
+    margin-top: 1rem;
     padding: 5rem 0;
 }
 
@@ -400,12 +400,172 @@ main .container-p5 iframe{
     z-index: 1;
 }
 
+/*--------------------- container-p6 ---------------------*/
+main .container-p6{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #ffffff;
+    padding-bottom: 7rem;
+}
+
+main .container-p6 .img-mascotes{
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    gap: 29vw;
+    margin-top: 23rem;
+}
+
+main .container-p6 .img-mascotes .mascote-1{
+    width: 300px;
+}
+
+main .container-p6 .img-mascotes .mascote-2{
+    width: 350px;
+}
+
+main .container-p6 .img-mascotes .mascote-3{
+    width: 350px;
+}
+
+main .container-p6 .img-mascotes .mascote-4{
+    width: 350px;
+}
+
+main .container-p6 .img-mascotes .img{
+    display: flex;
+    gap: 0vw;
+}
+
+main .container-p6 h1{
+    margin-top: 7rem;
+    font-size: 2.5rem;
+    font-family: 'Bubblegum Sans';
+    color: #2D2D2D;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+main .container-p6 .card-price{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 2rem;
+    background-image: linear-gradient(131.1deg, #0086e5ff 0%, #0cff 100%);
+    border-radius: 30px;
+    width: 500px;
+    height: 600px;
+    box-shadow: 0px 4px 4px 0px #00000040;
+}
+
+main .container-p6 .card-price h2{
+    font-size: 2rem;
+    font-family: 'Bubblegum Sans';
+    color: #ffffff;
+    text-align: center;
+    margin-top: 4rem;
+    letter-spacing: 2px;
+}
+
+main .container-p6 .card-price p{
+    text-align: center;
+    color: #ffffff;
+    font-size: 4rem;
+    font-family: 'Bubblegum Sans';
+    line-height: 2.1rem;
+    letter-spacing: 2px;
+}
+
+main .container-p6 .card-price p span{
+    font-size: 1.4rem;
+}
+
+main .container-p6 .card-price .description{
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px;
+}
+
+main .container-p6 .card-price .description p{
+    text-align: start;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+main .container-p6 .card-price .description img{
+    width: 20px;
+}
+
+main .container-p6 .data-oferta{
+    text-align: center;
+    font-size: 1rem;
+    font-family: 'Bubblegum Sans';
+    margin-top: 2rem;
+}
+
+main .container-p6 .btn-section-headear{
+    z-index: 1;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25rem;
+    height: 3.5rem;
+    margin-top: 2rem;
+    border-radius: 12px;
+    border: none;
+    background: #368D43;
+    color: #ffffff;
+    font-size: 1.1rem;
+    cursor: pointer;
+    font-weight: 500;
+    font-family: Roboto;
+    -webkit-box-shadow: 2px 2px 12px -3px rgba(0,0,0,0.85); 
+    box-shadow: 2px 2px 12px -3px rgba(0,0,0,0.85);
+}
+
+main .container-p6 .btn-section-headear img{
+    margin-left: 5px;
+}
+
+
 /*--------------------- Responsividade ---------------------*/
 @media screen and (max-width: 2262px) {
     main .container-p4{
         margin-top: 4.5rem;
     }
 }
+
+@media screen and (max-width: 1900px) {
+
+    main .container-p6 .img-mascotes{
+        gap: 33vw;
+        margin-top: 26rem;
+    }
+
+    main .container-p6 .img-mascotes .mascote-1{
+        width: 250px;
+    }
+    
+    main .container-p6 .img-mascotes .mascote-2{
+        width: 300px;
+    }
+    
+    main .container-p6 .img-mascotes .mascote-3{
+        width: 300px;
+    }
+    
+    main .container-p6 .img-mascotes .mascote-4{
+        width: 300px;
+    }
+
+    main .container-p6 .img-mascotes .img{
+        display: flex;
+        gap: 0vw;
+    }
+}
+
 @media screen and (max-width: 1850px) {
     .br-title-header{
         display: block;
@@ -423,6 +583,34 @@ main .container-p5 iframe{
     /*--------------------- container-p4 ---------------------*/
     main .container-p4 .owl-carousel{
         width: 65%;
+    }
+}
+
+@media screen and (max-width: 1760px) {
+    /*--------------------- container-p6 ---------------------*/
+    main .container-p6 .img-mascotes{
+        margin-top: 30rem;
+        gap: 37rem;
+    }
+
+    main .container-p6 .img-mascotes .mascote-1{
+        width: 200px;
+    }
+    
+    main .container-p6 .img-mascotes .mascote-2{
+        width: 250px;
+    }
+    
+    main .container-p6 .img-mascotes .mascote-3{
+        width: 250px;
+    }
+    
+    main .container-p6 .img-mascotes .mascote-4{
+        width: 250px;
+    }
+
+    main .container-p6 .img-mascotes .img{
+        gap: 1vw;
     }
 }
 
@@ -501,6 +689,49 @@ main .container-p5 iframe{
     /*--------------------- container-p4 ---------------------*/
     main .container-p4{
         margin-top: 9.5rem;
+    }
+
+    /*--------------------- container-p6 ---------------------*/
+    main .container-p6 .img-mascotes{
+        margin-top: 34rem;
+        gap: 37rem;
+    }
+
+    main .container-p6 .img-mascotes .mascote-1{
+        width: 150px;
+    }
+    
+    main .container-p6 .img-mascotes .mascote-2{
+        width: 200px;
+    }
+    
+    main .container-p6 .img-mascotes .mascote-3{
+        width: 200px;
+    }
+    
+    main .container-p6 .img-mascotes .mascote-4{
+        width: 200px;
+    }
+
+    main .container-p6 .img-mascotes .img{
+        gap: 1.7rem;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    /*--------------------- container-p6 ---------------------*/
+    main .container-p6 .img-mascotes{
+        gap: 32rem;
+    }
+
+    main .container-p6 .card-price{
+        width: 400px;
+        height: 600px;
+    }
+
+    main .container-p6 .img-mascotes .img{
+        display: flex;
+        gap: 1vw;
     }
 }
 
@@ -584,6 +815,70 @@ main .container-p5 iframe{
     main .container-p5 .img-container-p5 {
         width: 86.154vw;
     }
+
+    /*--------------------- container-p6 ---------------------*/
+    main .container-p6{
+        margin-top: 5vw;
+    }
+
+    main .container-p6 h1{
+        font-size: 2rem;
+    }
+
+    main .container-p6 .img-mascotes{
+        margin-top: 29rem;
+        gap: 26rem;
+    }
+
+    main .container-p6 .img-mascotes .mascote-1{
+        width: 100px;
+    }
+    
+    main .container-p6 .img-mascotes .mascote-2{
+        width: 140px;
+    }
+    
+    main .container-p6 .img-mascotes .mascote-3{
+        width: 140px;
+    }
+    
+    main .container-p6 .img-mascotes .mascote-4{
+        width: 140px;
+    }
+
+    main .container-p6 h1{
+        margin-top: 5rem;
+    }
+
+    main .container-p6 .card-price{
+        width: 350px;
+        height: 500px;
+    }
+
+    main .container-p6 .card-price h2{
+        font-size: 1.5rem;
+        margin-top: 3rem;
+    }
+    
+    main .container-p6 .card-price p{
+        text-align: center;
+        color: #ffffff;
+        font-size: 3rem;
+        font-family: 'Bubblegum Sans';
+        line-height: 1rem;
+        letter-spacing: 2px;
+    }
+
+    main .container-p6 .card-price .description{
+        margin-left: auto;
+        margin-right: auto;
+        width: 270px;
+    }
+
+    main .container-p6 .card-price .description span{
+        line-height: 2.1rem;
+        font-size: 1.1rem;
+    }
 }
 
 @media screen and (max-width: 1250px){
@@ -602,6 +897,11 @@ main .container-p5 iframe{
     /*--------------------- container-p4 ---------------------*/
     main .container-p4{
         height: 60rem;
+    }
+
+    /*--------------------- container-p6 ---------------------*/
+    main .container-p6{
+        margin-top: 1vw;
     }
 }
 
@@ -688,7 +988,7 @@ main .container-p5 iframe{
         width: 600px;
     }
 
-    /*--------------------- Container-p2 ---------------------*/
+    /*--------------------- Container-p5 ---------------------*/
     main .container-p5 iframe{
         width: 700px;
         height: 400px;
@@ -702,6 +1002,19 @@ main .container-p5 iframe{
 
     main .container-p5 .img-container-p5 {
         width: 55rem;
+    }
+
+    /*--------------------- container-p6 ---------------------*/
+    main .container-p6{
+        margin-top: 5rem;
+    }
+
+    main .container-p6 h1{
+        font-size: 1.7rem;
+    }
+
+    main .container-p6 .img-mascotes{
+        display: none;
     }
 }
 
@@ -883,6 +1196,14 @@ main .container-p5 iframe{
         height: 300px;
         margin-top: 2rem;
     }
+
+    /*--------------------- container-p6 ---------------------*/
+    main .container-p6 .btn-section-headear{
+        z-index: 1;
+        width: 20rem;
+        height: 3rem;
+        font-size: 1rem;
+    }
 }
 
 @media screen and (max-width: 660px) {
@@ -897,7 +1218,7 @@ main .container-p5 iframe{
 
     /*--------------------- container-p5 ---------------------*/
     main .container-p5{
-        padding: 2rem 0;
+        padding: 1rem 0;
     }
 }
 
@@ -1056,6 +1377,39 @@ main .container-p5 iframe{
         font-size: 1.4rem;
         margin-bottom: 0rem;
     }
+
+    /*--------------------- Container-p6 ---------------------*/
+    main .container-p6{
+        margin-top: 1rem;
+    } 
+    
+    main .container-p6 h1{
+        font-size: 1.5rem;
+        margin-top: 2rem;
+        width: 90%;
+    }
+
+    main .container-p6 .card-price{
+        width: 330px;
+        height: 470px;
+    }
+
+    main .container-p6 .data-oferta{
+        font-size: 1rem;
+        margin-top: 1.5rem;
+        width: 90%;
+    }
+
+    main .container-p6 .card-price .description{
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+    }
+
+    main .container-p6 .btn-section-headear{
+        margin-top: 1.2rem;
+    }
+
 }
 
 @media screen and (max-width: 400px) {
@@ -1135,5 +1489,12 @@ main .container-p5 iframe{
     main .container-p5 h1{
         font-size: 1.2rem;
         width: 95%;
+    }
+
+    /*--------------------- Container-p6 ---------------------*/
+    main .container-p6 .btn-section-headear{
+        width: 17.5rem;
+        height: 2.9rem;
+        font-size: 0.9rem;
     }
 }
