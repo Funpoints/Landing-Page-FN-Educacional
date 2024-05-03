@@ -548,6 +548,67 @@ main .container-p6 .btn-section-headear img{
     margin-left: 5px;
 }
 
+/*--------------------- container-p7 ---------------------*/
+main .container-p7{
+    display: flex;
+    flex-direction: column;
+}
+
+main .container-p7 .img-container-p7{
+    position: absolute;
+    width: 80rem;
+    margin-right: auto;
+    margin-left: auto;
+    left: 0;
+    right: 0;
+}
+
+main .container-p7 h1{
+    margin-top: 8rem;
+    font-size: 2.5rem;
+    font-family: 'Bubblegum Sans';
+    color: #2D2D2D;
+    letter-spacing: 1px;
+    text-align: center;
+    z-index: 1;
+}
+
+main .container-p7 .owl-carousel{
+    width: 75%;
+    margin-top: 7rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main .container-p7 .owl-carousel .swiper-slide{
+    background: #7a7a7a20;
+    backdrop-filter: blur(10px);
+    padding: 2rem;
+    height: 20rem;
+    text-align: center;
+    border-radius: 20px;    
+    border: #6d6d6d1c solid 1px;
+}
+
+main .container-p7 .owl-carousel .swiper-slide h1{
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    font-family: 'Bubblegum Sans';
+    color: #2D2D2D;
+    text-align: start;
+}
+
+main .container-p7 .owl-carousel p{
+    font-size: 1.3rem;
+    text-align: start;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Bubblegum Sans';
+    color: #2D2D2D;
+    margin-top: 1.3rem;
+    letter-spacing: 1px;
+    line-height: 25px;
+}
 
 /*--------------------- Responsividade ---------------------*/
 @media screen and (max-width: 2262px) {
@@ -635,6 +696,11 @@ main .container-p6 .btn-section-headear img{
 
     main .container-p6 .img-mascotes .img{
         gap: 1vw;
+    }
+
+    /*--------------------- container-p7 ---------------------*/
+    main .container-p7 .owl-carousel {
+        margin-top: 5rem;
     }
 }
 
@@ -744,6 +810,12 @@ main .container-p6 .btn-section-headear img{
 
     main .container-p6 .img-mascotes .img{
         gap: 1.7rem;
+    }
+
+    /*--------------------- container-p7 ---------------------*/
+    main .container-p7 .owl-carousel p{
+        font-size: 1.2rem;
+        margin-top: 1.2rem;
     }
 }
 
@@ -899,7 +971,7 @@ main .container-p6 .btn-section-headear img{
         font-size: 3rem;
         font-family: 'Bubblegum Sans';
         line-height: 1rem;
-        letter-spacing: 2px;
+        letter-spacing: 1px;
     }
 
     main .container-p6 .card-price .description{
@@ -912,14 +984,28 @@ main .container-p6 .btn-section-headear img{
         line-height: 2.1rem;
         font-size: 1.1rem;
     }
+
+    /*--------------------- container-p7 ---------------------*/
+    main .container-p7 h1{
+        font-size: 2rem;
+    }
+
+    main .container-p7 .img-container-p7{
+        width: 100vw;
+    }
+
+    main .container-p7 .owl-carousel .swiper-slide{
+        height: 20rem;
+    }
+
+    main .container-p7 .owl-carousel{
+        width: 95%;
+        margin-top: 3rem;
+    }
 }
 
 @media screen and (max-width: 1250px){
     /*--------------------- container-p4 ---------------------*/
-    /*main .container-p4{
-        height: 62rem;
-    }*/
-
     main .container-p4 .img-container-p4 {
         position: absolute;
         width: 60rem;
@@ -934,22 +1020,10 @@ main .container-p6 .btn-section-headear img{
 }
 
 @media screen and (max-width: 1200px){
-    /*--------------------- container-p4 ---------------------*/
-    /*main .container-p4{
-        height: 60rem;
-    }*/
-
     /*--------------------- container-p6 ---------------------*/
     main .container-p6{
         margin-top: 1vw;
     }
-}
-
-@media screen and (max-width: 1100px){
-    /*--------------------- container-p4 ---------------------*/
-    /*main .container-p4{
-        height: 55rem;
-    }*/
 }
 
 @media screen and (max-width: 1000px) {
@@ -1064,6 +1138,25 @@ main .container-p6 .btn-section-headear img{
 
     main .container-p6 .img-mascotes{
         display: none;
+    }
+
+    /*--------------------- container-p7 ---------------------*/
+    main .container-p7 h1{
+        margin-top: 5rem;
+        font-size: 1.7rem;
+    }
+
+    main .container-p7 .img-container-p7{
+        width: 100vw;
+    }
+
+    main .container-p7 .owl-carousel .swiper-slide{
+        height: 20rem;
+    }
+
+    main .container-p7 .owl-carousel{
+        width: 95%;
+        margin-top: 2rem;
     }
 }
 
@@ -1261,6 +1354,15 @@ main .container-p6 .btn-section-headear img{
         height: 3rem;
         font-size: 1rem;
     }
+
+    /*--------------------- container-p7 ---------------------*/
+    main .container-p7 .owl-carousel .swiper-slide{
+        height: 14rem;
+    }
+
+    main .container-p7 .owl-carousel{
+        width: 80%;
+    }
 }
 
 @media screen and (max-width: 660px) {
@@ -1431,7 +1533,7 @@ main .container-p6 .btn-section-headear img{
     main .container-p5 {
         margin-top: 1rem;
     }
-    
+
     main .container-p5 iframe{
         width: 90%;
         height: 300px;
@@ -1451,6 +1553,7 @@ main .container-p6 .btn-section-headear img{
     /*--------------------- Container-p6 ---------------------*/
     main .container-p6{
         margin-top: 1rem;
+        padding-bottom: 3rem;
     } 
 
     main .container-p6 h1{
@@ -1478,6 +1581,34 @@ main .container-p6 .btn-section-headear img{
 
     main .container-p6 .btn-section-headear{
         margin-top: 1.2rem;
+    }
+
+    /*--------------------- container-p7 ---------------------*/
+    main .container-p7 h1{
+        margin-top: 1.5rem;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 1.7rem;
+        width: 17rem;
+    }
+
+    main .container-p7 .img-container-p7{
+        display: none;
+    }
+
+    main .container-p7 .owl-carousel{
+        width: 90%;
+    }
+
+    main .container-p7 .owl-carousel .swiper-slide{
+        height: 18rem;
+        padding: 1rem;
+    }
+
+    main .container-p7 .owl-carousel .swiper-slide h1{
+        margin-left: 0;
+        margin-right: 0;
+        font-size: 1.3rem;
     }
 
 }

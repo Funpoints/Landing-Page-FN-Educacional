@@ -62,3 +62,22 @@ $('#carousel-3').owlCarousel({
       },
   }
 })
+
+$('#carousel-4').owlCarousel({
+  loop:true,
+  margin: 20,
+  autoplay: true,
+  autoplayTimeout: 6000,
+  nav:true,
+  responsive:{
+    0:{
+        items:1
+    },
+    763:{
+      items:2
+    },
+    1000:{
+        items:3
+    },
+}
+})
