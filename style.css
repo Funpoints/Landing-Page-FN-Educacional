@@ -22,7 +22,7 @@ body {
 }
 
 .logo-navbar{
-    padding: 0 0 0 4rem;
+    padding: 0 0 0 7rem;
     width: 140px;
 }
 
@@ -34,7 +34,7 @@ body {
 .navbar-links {
     height: 100%;
     margin-left: auto;
-    padding-right: 5rem;
+    padding-right: 8rem;
 }
 
 .navbar-links ul {
@@ -49,10 +49,11 @@ body {
 .navbar-links li a {
     display: block;
     color: #000000;
-    font-family: Poppins;
+    font-family: 'Bubblegum Sans';
     font-weight: 500;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     text-underline-offset: 7px;
+    letter-spacing: 1px;
 }
 
 .navbar-links li:hover {
@@ -78,7 +79,7 @@ body {
 }
 
 header .section-headear {
-    margin-left: 4rem;
+    margin-left: 7rem;
     top: 8rem;
     position: absolute;
     padding: 1.09vw;
@@ -87,7 +88,8 @@ header .section-headear {
 
 header .section-headear h1 {
     font-size: 4.7rem;
-    font-family: Roboto;
+    letter-spacing: 1px;
+    font-family: 'Bubblegum Sans';
     color: #000000;
 }
 
@@ -96,21 +98,21 @@ header .section-headear h1 {
 }
 
 header .section-headear .subtitle-1 {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     color: #000000;
-    width: 40rem;
+    width: 36rem;
     margin-top: 1vw;
     font-weight: 500;
-    font-family: Poppins;
+    font-family: 'Bubblegum Sans';
 }
 
 header .section-headear .subtitle-2 {
-    font-size: 1rem;
+    font-size: 1.2rem;
     color: #000000;
     width: 25rem;
     margin-top: 10px;
     font-weight: 300;
-    font-family: Poppins;
+    font-family: 'Bubblegum Sans';
 }
 
 header .section-headear .btn-section-headear{
@@ -129,6 +131,10 @@ header .section-headear .btn-section-headear{
     box-shadow: 2px 2px 12px -3px rgba(0,0,0,0.85);
 }
 
+header .section-headear .btn-section-headear img{
+    margin-left: 5px;
+}
+
 header .section-headear .btn-section-headear:hover{
     transform: scale(1.04);
 }
@@ -137,12 +143,12 @@ header .header-banner-img{
     position: absolute;
     right: 0;
     top: 0;
-    width: 1450px;
+    width: 1650px;
 }
 
 header .header-banner-decore{
     position: absolute;
-    width: 350px;
+    width: 450px;
     top: 0;
 }
 /*--------------------- Fim Header ---------------------*/
@@ -772,6 +778,10 @@ main .container-p9 .answer li{
         display: block;
     }
 
+    header .header-banner-img{
+        width: 1550px;
+    }
+
     main .container-p4{
         margin-top: 6.2rem;
     }
@@ -827,6 +837,10 @@ main .container-p9 .answer li{
 
 @media screen and (max-width: 1600px) {
 /*--------------------- Header ---------------------*/
+    .navbar-links {
+        padding-right: 4rem;
+    }
+
     .navbar-links ul {
         gap: 1rem;
     }
@@ -834,9 +848,8 @@ main .container-p9 .answer li{
     .navbar-links li a {
         display: block;
         color: #000000;
-        font-family: Poppins;
         font-weight: 500;
-        font-size: 1rem;
+        font-size: 1.3rem;
         text-underline-offset: 7px;
     }
 
@@ -844,16 +857,23 @@ main .container-p9 .answer li{
         padding: 0 0 0 3rem;
     }
 
+    header .section-headear {
+        margin-left: 4rem;
+    }
+    
+
     header .section-headear h1 {
         font-size: 4rem;
     }
 
     header .section-headear .subtitle-1 {
         font-size: 1.4rem;
+        width: 25rem;
     }
     
     header .section-headear .subtitle-2 {
-        font-size: 0.9rem;
+        font-size: 1rem;
+        width: 20rem;
     }
 
     header .header-banner-img{
@@ -965,11 +985,7 @@ main .container-p9 .answer li{
 
     header .section-headear .subtitle-1 {
         font-size: 1.3rem;
-        width: 35rem;
-    }
-    
-    header .section-headear .subtitle-2 {
-        font-size: 0.8rem;
+        width: 25rem;
     }
 
     header .header-banner-img{
@@ -1187,6 +1203,10 @@ main .container-p9 .answer li{
     }
 
     /*--------------------- Main ---------------------*/
+    main{
+        margin-top: 35rem;
+    }
+
     main .container-p1 h1{
         font-size: 1.5rem;
     }
@@ -1393,18 +1413,17 @@ main .container-p9 .answer li{
 
     header .section-headear h1 {
         font-size: 3rem;
-        font-family: Roboto;
         color: #000000;
     }
 
     header .section-headear .subtitle-1 {
         font-size: 1.1rem;
-        width: 30rem;
+        width: 20rem;
     }
     
     header .section-headear .subtitle-2 {
         font-size: 0.9rem;
-        width: 30rem;
+        width: 18rem;
     }
 
     header .section-headear .btn-section-headear{
@@ -1416,7 +1435,7 @@ main .container-p9 .answer li{
 
     /*--------------------- Main ---------------------*/
     main{
-        margin-top: 33rem;
+        margin-top: 30rem;
     }
 
     main .container-p1 .br-title{
@@ -1605,8 +1624,12 @@ main .container-p9 .answer li{
         top: 7rem;
     }
 
+    header .section-headear .br-title-header-1{
+        display: none;
+    }
+
     header .section-headear h1 {
-        font-size: 2.1rem;
+        font-size: 2.2rem;
     }
 
     header .section-headear .subtitle-1 {
@@ -1615,7 +1638,7 @@ main .container-p9 .answer li{
     }
     
     header .section-headear .subtitle-2 {
-        font-size: 0.9rem;
+        font-size: 1rem;
         width: 21.875rem;
     }
 
@@ -1625,7 +1648,7 @@ main .container-p9 .answer li{
 
     /*--------------------- Main ---------------------*/
     main{
-        margin-top: 30rem;
+        margin-top: 26.5rem;
     }
 
     main .container-p1 h1{
@@ -1862,18 +1885,13 @@ main .container-p9 .answer li{
         top: 6.5rem;
     }
 
-    header .section-headear h1 {
-        font-size: 1.8rem;
-    }
-
     header .section-headear .subtitle-1 {
         font-size: 1.1rem;
         width: 100%;
     }
     
     header .section-headear .subtitle-2 {
-        font-size: 0.9rem;
-        width: 100%;
+        width: 90%;
     }
 
     header .section-headear .btn-section-headear{
