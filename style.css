@@ -98,7 +98,7 @@ header .section-headear h1 {
 }
 
 header .section-headear .subtitle-1 {
-    font-size: 1.7rem;
+    font-size: 2.3rem;
     color: #000000;
     width: 36rem;
     margin-top: 1vw;
@@ -171,7 +171,7 @@ main .container-p1 .br-title{
 
 main .container-p1 h1{
     font-size: 2rem;
-    font-family: Roboto;
+    font-family: 'Bubblegum Sans';
     color: #2D2D2D;
     text-align: center;
 }
@@ -180,7 +180,7 @@ main .container-p1 iframe{
     border-radius: 20px;
     width: 900px;
     height: 500px;
-    margin-top: 2rem;
+    margin-top: 1.5rem;
 }
 
 /*--------------------- container-p2 ---------------------*/
@@ -1215,7 +1215,7 @@ main .container-p9 .answer li{
         border-radius: 20px;
         width: 700px;
         height: 400px;
-        margin-top: 2rem;
+        margin-top: 0.5rem;
     }
 
     /*--------------------- Container-p2 ---------------------*/
@@ -1435,7 +1435,7 @@ main .container-p9 .answer li{
 
     /*--------------------- Main ---------------------*/
     main{
-        margin-top: 30rem;
+        margin-top: 29rem;
     }
 
     main .container-p1 .br-title{
@@ -1446,7 +1446,6 @@ main .container-p9 .answer li{
         border-radius: 20px;
         width: 500px;
         height: 300px;
-        margin-top: 2rem;
     }
 
     /*--------------------- Container-p2 ---------------------*/
@@ -1659,7 +1658,6 @@ main .container-p9 .answer li{
         border-radius: 20px;
         width: 90%;
         height: 300px;
-        margin-top: 2rem;
     }
 
     /*--------------------- Container-p2 ---------------------*/
@@ -1903,11 +1901,11 @@ main .container-p9 .answer li{
 
     /*--------------------- Main ---------------------*/
     main{
-        margin-top: 27rem;
+        margin-top: 28rem;
     }
 
     main .container-p1 h1{
-        font-size: 1.2rem;
+        font-size: 1.3rem;
     }
 
     /*--------------------- Container-p2 ---------------------*/
