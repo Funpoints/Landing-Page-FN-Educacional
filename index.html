@@ -16,10 +16,10 @@
 </head>
 <body>
     <header>
-        <img class="header-banner-decore" src="./img/Decore.svg" alt="decore">
+        <img class="header-banner-decore" src="./img/Decore.svg" alt="blob-img">
 
-        <nav class="navbar" id="teste" >
-            <div class="brand-title"><a href="#"><img class="logo-navbar" src="./img/Logo-Thermas-2.svg" alt="logo"></a></div>
+        <nav class="navbar" id="navbar">
+            <div class="brand-title"><a href="#"><img class="logo-navbar" src="./img/Logo-Thermas.svg" alt="thermashotworld-logo"></a></div>
             <a href="#" class="toggle-button">
                 <span class="bar"></span>
                 <span class="bar"></span>
@@ -27,7 +27,7 @@
             </a>
             <div class="navbar-links">
                 <ul>
-                    <li><a href="#">Thermas Hot World</a></li>
+                    <li><a href="https://thermashotworld.com.br/" target="_blank">Thermas Hot World</a></li>
                     <li><a href="#">Excursões</a></li>
                     <li><a href="#">Cabanas</a></li>
                 </ul>
@@ -36,30 +36,30 @@
         <section class="section-headear">
             <h1>O destino da sua próxima <br class="br-title-header-1"> excursão escolar é no <br class="br-title-header"> Thermas Hot World</h1>
             
-            <p class="subtitle-1">Na FN Educacional, a diversão e o aprendizado caminham lado a lado!</p>
+            <p class="subtitle-1">Na FN Educacional, a diversão e o aprendizado <br> caminham lado a lado!</p>
             <p class="subtitle-2">Professores, mestres e educadores, buscando uma experiência memorável para seus alunos? Então você está no lugar certo!</p>
             
-            <button class="btn-section-headear">Agende agora sua excursão <img src="./img/whatsapp-icon.svg"></button>
+            <button class="btn-section-headear" onclick="scrollToSection('container-p6')">Agende agora sua excursão <img src="./img/whatsapp-icon.svg" alt="whatsapp-icon" ></button>
         </section>
 
-        <img class="header-banner-img" src="./img/shape-header-1.svg" alt="shape">
+        <img class="header-banner-img" src="./img/shape-header-2.svg" alt="blob-img">
     </header>
 
-    <main>
+    <main class="main" id="main">
         <section class="container-p1">
             <h1>Assista ao vídeo <br class="br-title"> e saiba mais sobre o projeto!</h1>
 
-            <iframe src="https://www.youtube.com/embed/pdMSEgoLspY?si=vQZ9M2Q_bg-W8ssM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/C7lVsnWKrTM?si=Ts6V89LbTwJbYx9I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </section>
 
         <section class="container-p2">
-            <img class="img-container-p2" src="./img/shape-container-p2.svg" alt="shape">
+            <img class="img-container-p2" src="./img/shape-container-p2.svg" alt="blob-img">
 
             <div id="carousel-1" class="owl-carousel owl-theme">
                 <div class="swiper-slide">
                         <h1>Circuito pedagógico</h1>
     
-                        <img src="./img/education-icon.svg" alt="educação-icon">
+                        <img src="./img/educacao.svg" alt="educação-icon">
     
                         <p>
                             Aprenda sobre a história e a importância das águas em Águas de Lindóia! 
@@ -71,7 +71,7 @@
                 <div class="swiper-slide">
                     <h1>Alimentação completa</h1>
 
-                    <img src="./img/food-icon.svg" alt="educação-icon">
+                    <img src="./img/food.svg" alt="alimentação-icon">
 
                     <p>
                         Estar em dia com as obrigações 
@@ -84,7 +84,7 @@
                 <div class="swiper-slide">
                     <h1>Hora da diversão</h1>
 
-                    <img src="./img/confetti-icon.svg" alt="educação-icon">
+                    <img src="./img/confetti.svg" alt="diversão-icon">
 
                     <p>
                         A palavra-chave para lidar com as questões
@@ -96,7 +96,7 @@
         </section>
 
         <section class="container-p3">
-            <img class="img-container-p3-passaro" src="./img/ave.svg" alt="shape">
+            <img class="img-container-p3-passaro" src="./img/ave.svg" alt="blob-img">
 
             <h1 class="title">FN Educacional: Projeto educacional ambiental</h1>
 
@@ -107,7 +107,7 @@
 
             <div id="carousel-2" class="owl-carousel owl-theme">
                 <div class="swiper-slide">
-                        <h1>1ª &nbsp; estação: Águativa</h1>
+                        <h1>1ª Estação: Águativa</h1>
     
                         <p>
                             Imersão ao mundo da água por experimentos lúdicos/práticos
@@ -119,32 +119,32 @@
                 </div>
 
                 <div class="swiper-slide">
-                    <h1>Bosque respire fundo</h1>
+                    <h1>2ª Estação: Bosque respire fundo</h1>
 
                     <p>
                         Nessa estação, seus alunos aprenderão sobre a importância do solo,
                         cobertura vegetal e qualidade do ar!
                     </p>
 
-                    <img src="./img/Bosque-respire-fundo.svg" alt="aguativa">
+                    <img src="./img/Bosque-respire-fundo.svg" alt="Bosque-respire-fundo">
                 </div>
 
                 <div class="swiper-slide">
-                    <h1>Bosque Recanto Florestal</h1>
+                    <h1>3ª Estação: Bosque Recanto Florestal</h1>
 
                     <p>
                         Aqui, as crianças aprendem sobre a respiração das árvores e a respiração humana.
                     </p>
 
-                    <img src="./img/Bosque-Recanto-Florestal.svg" alt="aguativa">
+                    <img src="./img/Bosque-Recanto-Florestal.svg" alt="Bosque-Recanto-Florestal">
                 </div>
 
                 <div class="swiper-slide">
-                    <h1>Criando raízes</h1>
+                    <h1>4ª Estação: Criando raízes</h1>
 
                     <p>Construindo o futuro, cada aluno deixa sua marca positiva no mundo ao plantar uma muda nativa na área de preservação permanente do Thermas Hot World!</p>
 
-                    <img src="./img/Criando-raízes.svg" alt="aguativa">
+                    <img src="./img/Criando-raízes.svg" alt="Criando-raízes">
                 </div>
 
                 <div class="swiper-slide">
@@ -152,13 +152,13 @@
 
                     <p>Podemos juntos conscientizar a próxima geração para cuidar de nosso planeta!</p>
 
-                    <img src="./img/Faça-parte-dessa-história.svg" alt="aguativa">
+                    <img src="./img/Faça-parte-dessa-história.svg" alt="Faça-parte-dessa-história">
                 </div>
             </div>
 
-            <button class="btn-section-headear">Agende agora sua excursão</button>
+            <button class="btn-section-headear" onclick="scrollToSection('container-p6')">Agende agora sua excursão <img src="./img/whatsapp-icon.svg" alt="whatsapp-icon" ></button>
 
-            <img class="img-container-p3" src="./img/shape-container-p3.svg" alt="shape">
+            <img class="img-container-p3" src="./img/shape-container-p3.svg" alt="blob-img">
 
         </section>
 
@@ -166,43 +166,43 @@
             <h1>Confira mais desse projeto incrível e inovador!</h1>
             <iframe src="https://www.youtube.com/embed/JbCN6jja4XY?si=r0k3z_ils5N2-hos" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             
-            <h1>Conheça mais doThermas Hot World</h1>
+            <h1>Conheça mais do Thermas Hot World</h1>
 
             <div id="carousel-3" class="owl-carousel owl-theme">
                 <div class="swiper-slide">
-                    <img src="./img/img-park-1.svg" alt="aguativa">
+                    <img src="./img/img-park-1.svg" alt="imagem-park-thermas-hot-world">
                 </div>
 
                 <div class="swiper-slide">
-                    <img src="./img/img-park-2.svg" alt="aguativa">
+                    <img src="./img/img-park-2.svg" alt="imagem-park-thermas-hot-world">
                 </div>
 
                 <div class="swiper-slide">
-                    <img src="./img/img-park-3.svg" alt="aguativa">
+                    <img src="./img/img-park-3.svg" alt="imagem-park-thermas-hot-world">
                 </div>
 
                 <div class="swiper-slide">
-                    <img src="./img/img-park-4.svg" alt="aguativa">
+                    <img src="./img/img-park-4.svg" alt="imagem-park-thermas-hot-world">
                 </div>
 
                 <div class="swiper-slide">
-                    <img src="./img/img-park-5.svg" alt="aguativa">
+                    <img src="./img/img-park-5.svg" alt="imagem-park-thermas-hot-world">
                 </div>
 
                 <div class="swiper-slide">
-                    <img src="./img/img-park-6.svg" alt="aguativa">
+                    <img src="./img/img-park-6.svg" alt="imagem-park-thermas-hot-world">
                 </div>
 
                 <div class="swiper-slide">
-                    <img src="./img/img-park-7.svg" alt="aguativa">
+                    <img src="./img/img-park-7.svg" alt="imagem-park-thermas-hot-world">
                 </div>
 
                 <div class="swiper-slide">
-                    <img src="./img/img-park-8.svg" alt="aguativa">
+                    <img src="./img/img-park-8.svg" alt="imagem-park-thermas-hot-world">
                 </div>
             </div>
 
-            <img class="img-container-p4" src="./img/shape-container-p4.svg" alt="shape">
+            <img class="img-container-p4" src="./img/shape-container-p4.svg" alt="blob-img">
 
         </section>
 
@@ -210,22 +210,20 @@
             <h1>Com o projeto Educacional do Thermas Hot World, proporcionamos uma experiência única para escolas e estudantes, unindo conhecimento e diversão.</h1>
         
             <iframe src="https://www.youtube.com/embed/pdMSEgoLspY?si=vQZ9M2Q_bg-W8ssM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-            <img class="img-container-p5" src="./img/shape-container-p5.svg" alt="shape">
         </section>
 
-        <section class="container-p6" >
+        <section class="container-p6" id="container-p6" >
             <h1>Valores especiais para redes particulares e públicas!</h1>
 
             <div class="img-mascotes" >
                 <diV class="img">
-                    <img class="mascote-2" src="./img/Menino_pose_cintura.svg" alt="Menina_pose_voando">
-                    <img class="mascote-1" src="./img/Menina_pose_voando_palma.svg" alt="Menina_pose_voando">
+                    <img class="mascote-2" src="./img/Menino_pose_cintura.svg" alt="Menino-pose-cintura">
+                    <img class="mascote-1" src="./img/Menina_pose_voando_palma.svg" alt="Menina-pose-voando-palma">
                 </diV>
                 
                 <diV class="img">
-                    <img class="mascote-3" src="./img/surfista.svg" alt="Menina_pose_voando">
-                    <img class="mascote-4" src="./img/principe.svg" alt="Menina_pose_voando">
+                    <img class="mascote-3" src="./img/surfista.svg" alt="surfista">
+                    <img class="mascote-4" src="./img/principe.svg" alt="principe">
                 </diV>
             </div>
 
@@ -239,11 +237,11 @@
                 <p><span>Por aluno</span></p>
 
                 <div class="description">
-                    <p><img src="./img/check-icon.svg"><span>Lanche ao chegar ao parque</span></p>
-                    <p><img src="./img/check-icon.svg"><span>Almoço Kids</span></p>
-                    <p><img src="./img/check-icon.svg"><span>Circuito Pedagógico</span></p>
-                    <p><img src="./img/check-icon.svg"><span>Parque Aquático</span></p>
-                    <p><img src="./img/check-icon.svg"><span>Lanche na saída</span></p>
+                    <p><img src="./img/check-icon.svg" alt="check-icon"><span>Lanche ao chegar ao parque</span></p>
+                    <p><img src="./img/check-icon.svg" alt="check-icon"><span>Almoço Kids</span></p>
+                    <p><img src="./img/check-icon.svg" alt="check-icon"><span>Circuito Pedagógico</span></p>
+                    <p><img src="./img/check-icon.svg" alt="check-icon"><span>Parque Aquático</span></p>
+                    <p><img src="./img/check-icon.svg" alt="check-icon"><span>Lanche na saída</span></p>
                 </div>
             </div>
 
@@ -252,12 +250,13 @@
                 Oferta válida até julho/2024, então aproveite enquanto ainda há vagas disponíveis!
             </p>
 
-            <button class="btn-section-headear">Agende agora sua excursão <img src="./img/whatsapp-icon.svg"> </button>
-
+            <a href="https://wa.link/kbfui2" target="_blank">
+                <button class="btn-section-headear">Agende agora sua excursão <img src="./img/whatsapp-icon.svg" alt="whatsapp-icon"></button>
+            </a>
         </section>
 
         <section class="container-p7">
-            <img class="img-container-p7" src="./img/shape-container-p7.svg" alt="shape">
+            <img class="img-container-p7" src="./img/shape-container-p7.svg" alt="blob-img">
 
             <h1>Quem conhece o Thermas aprova!</h1>
 
@@ -384,9 +383,10 @@
                 </div>
             </div>
         </section>
-        
     </main>
+
 </body>
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"
 integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ=="
 crossorigin="anonymous" referrerpolicy="no-referrer"></script>

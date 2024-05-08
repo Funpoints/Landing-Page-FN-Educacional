@@ -1,6 +1,7 @@
 const toggleButton = document.getElementsByClassName('toggle-button')[0]
 const navbarLinks = document.getElementsByClassName('navbar-links')[0]
-const navbar = document.getElementById("teste")
+const navbar = document.getElementById("navbar")
+const main = document.getElementById("main")
 
 let toggle = false
 
@@ -9,13 +10,16 @@ toggleButton.addEventListener('click', () => {
   
   if(toggle == false){
     toggle = true
-    navbar.style.backgroundColor = "#0000004d"
+    navbar.style.backgroundImage = "linear-gradient(131.1deg, #0086e5ff 0%, #00ffff 100%)";
+    navbar.style.borderRadius = "0 0 30px 30px"
+    navbar.style.marginBottom = "15px"
     
   } else {
     toggle = false
-    navbar.style.backgroundColor = "transparent"
+    navbar.style.marginBottom = "0"
+    navbar.style.backgroundImage = "none";
+    navbar.style.backgroundColor = "transparent";
   }
-
 })
 
 $('#carousel-1').owlCarousel({
@@ -66,20 +70,20 @@ $('#carousel-3').owlCarousel({
 $('#carousel-4').owlCarousel({
   loop:true,
   margin: 20,
-  autoplay: true,
+  autoplay: false,
   autoplayTimeout: 6000,
   nav:true,
   responsive:{
-    0:{
-        items:1
-    },
-    763:{
-      items:2
-    },
-    1000:{
-        items:3
-    },
-}
+      0:{
+          items:1
+      },
+      763:{
+        items:2
+      },
+      1000:{
+          items:3
+      },
+  }
 })
 
 let question = document.querySelectorAll(".question");
@@ -99,3 +103,8 @@ question.forEach(question => {
     }
   })
 })
+
+function scrollToSection(sectionId) {
+  const section = document.getElementById(sectionId);
+  section.scrollIntoView({ behavior: 'smooth' });
+}

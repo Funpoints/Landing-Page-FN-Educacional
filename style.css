@@ -18,7 +18,7 @@ body {
     position: relative;
     justify-content: space-between;
     align-items: center;
-    z-index: 1;
+    z-index: 9;
 }
 
 .logo-navbar{
@@ -98,19 +98,19 @@ header .section-headear h1 {
 }
 
 header .section-headear .subtitle-1 {
-    font-size: 2.3rem;
+    font-size: 3.3rem;
+    line-height: 50px;
     color: #000000;
-    width: 36rem;
     margin-top: 1vw;
     font-weight: 500;
     font-family: 'Bubblegum Sans';
 }
 
 header .section-headear .subtitle-2 {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     color: #000000;
-    width: 25rem;
-    margin-top: 10px;
+    width: 26rem;
+    margin-top: 15px;
     font-weight: 300;
     font-family: 'Bubblegum Sans';
 }
@@ -154,7 +154,7 @@ header .header-banner-decore{
 /*--------------------- Fim Header ---------------------*/
 
 /*--------------------- Inicio Main ---------------------*/
-main{
+.main{
     margin-top: 55rem;
 }
 
@@ -216,9 +216,10 @@ main .container-p2 .owl-carousel .swiper-slide{
 }
 
 main .container-p2 .owl-carousel .swiper-slide h1{
-    font-size: 1.5rem;
-    font-family: Roboto;
+    font-size: 1.6rem;
+    font-family: 'Bubblegum Sans';
     color: #2D2D2D;
+    letter-spacing: 1px;
 }
 
 main .container-p2 .owl-carousel .swiper-slide img{
@@ -230,7 +231,7 @@ main .container-p2 .owl-carousel .swiper-slide img{
 }
 
 main .container-p2 .owl-carousel p{
-    font-size: 1.1rem;
+    font-size: 1rem;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -239,7 +240,7 @@ main .container-p2 .owl-carousel p{
     color: #2D2D2D;
 }
 
-/*--------------------- container-p2 ---------------------*/
+/*--------------------- container-p3 ---------------------*/
 main .container-p3{
     display: flex;
     flex-direction: column;
@@ -248,18 +249,18 @@ main .container-p3{
 
 main .container-p3 .title{
     font-size: 2rem;
-    font-family: Roboto;
+    font-family: 'Bubblegum Sans';
     color: #2D2D2D;
     text-align: center;
+    letter-spacing: 1px;
 }
 
 main .container-p3 .subtitle-1 {
-    font-size: 1.5rem;
-    color: #000000;
+    font-size: 1.3rem;
+    color: #2D2D2D;
     width: 80rem;
-    margin-top: 1vw;
-    font-weight: 400;
     font-family: Poppins;
+    font-weight: 400;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -294,11 +295,12 @@ main .container-p3 .owl-carousel{
 }
 
 main .container-p3 .owl-carousel .swiper-slide h1{
-    font-size: 1.5rem;
-    font-family: Roboto;
+    font-size: 1.6rem;
+    font-family: 'Bubblegum Sans';
     color: #2D2D2D;
     text-align: center;
     margin-bottom: 1.5rem;
+    letter-spacing: 1px;
 }
 
 main .container-p3 .owl-carousel p{
@@ -338,6 +340,10 @@ main .container-p3 .btn-section-headear{
     box-shadow: 2px 2px 12px -3px rgba(0,0,0,0.85);
 }
 
+main .container-p3 .btn-section-headear img{
+    margin-left: 5px;
+}
+
 /*--------------------- container-p4 ---------------------*/
 main .container-p4{
     display: flex;
@@ -360,10 +366,11 @@ main .container-p4 iframe{
 
 main .container-p4 h1{
     font-size: 2rem;
-    font-family: Roboto;
+    font-family: 'Bubblegum Sans';
     color: #2D2D2D;
     text-align: center;
     z-index: 1;
+    letter-spacing: 1px;
 }
 
 main .container-p4 .img-container-p4 {
@@ -409,12 +416,12 @@ main .container-p5 .img-container-p5 {
 
 main .container-p5 h1{
     font-size: 2rem;
-    font-family: Roboto;
+    font-family: 'Bubblegum Sans';
     color: #2D2D2D;
     text-align: center;
     z-index: 1;
     width: 60rem;
-    margin-bottom: 4rem;
+    margin-bottom: 1rem;
 }
 
 main .container-p5 iframe{
@@ -526,8 +533,8 @@ main .container-p6 .card-price .description img{
 
 main .container-p6 .data-oferta{
     text-align: center;
-    font-size: 1rem;
-    font-family: 'Bubblegum Sans';
+    font-size: 0.8rem;
+    font-family: Poppins;
     margin-top: 2rem;
 }
 
@@ -605,15 +612,14 @@ main .container-p7 .owl-carousel .swiper-slide h1{
 }
 
 main .container-p7 .owl-carousel p{
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     text-align: start;
     margin-left: auto;
     margin-right: auto;
-    font-family: 'Bubblegum Sans';
+    font-family: Poppins;
     color: #2D2D2D;
-    margin-top: 1.3rem;
-    letter-spacing: 1px;
-    line-height: 25px;
+    margin-top: 1rem;
+    font-weight: 300;
 }
 
 /*--------------------- container-p8 ---------------------*/
@@ -636,8 +642,8 @@ main .container-p8 h1{
 }
 
 main .container-p8 p{
-    font-size: 1.5rem;
-    font-family: 'Bubblegum Sans';
+    font-size: 1.1rem;
+    font-family: Poppins;
     color: #2D2D2D;
     letter-spacing: 1px;
     text-align: center;
@@ -660,7 +666,7 @@ main .container-p9{
     flex-direction: column;
     align-items: center;
     background: #ffffff;
-    padding-bottom: 10rem;
+    padding-bottom: 2rem;
 }
 
 main .container-p9 h1{
@@ -676,21 +682,21 @@ main .container-p9 h1{
 
 .wrapper {
     width: 60%;
-  }
+}
   
-  h1 {
+.container-p9 h1 {
     margin-bottom: 20px;
-  }
+}
   
-  .container {
+.container {
     background-color: white;
     color: black;
     border-radius: 20px;
     box-shadow: 0 5px 10px 0 rgb(0,0,0,0.25);
     margin: 20px 0;
-  }
+}
   
-  .question {
+.question {
     font-size: 1.5rem;
     font-weight: 600;
     padding: 20px 80px 20px 20px;
@@ -700,38 +706,35 @@ main .container-p9 h1{
     cursor: pointer;
     letter-spacing: 1px;
     font-family: 'Bubblegum Sans';
-  }
+}
   
-  .question::after {
+.question::after {
     content: "\002B";
     font-size: 2.2rem;
     position: absolute;
     right: 20px;
     transition: 0.2s;
-  }
+}
   
-  .question.active::after {
+.question.active::after {
     transform: rotate(45deg);
-  }
+}
   
-  .answercont {
+.answercont {
     max-height: 0;
     overflow: hidden;
     transition: 0.3s;
-
-  }
+}
   
-  .answer {
+.answer {
     padding: 0 20px 20px;
-    line-height: 25px;
-    letter-spacing: 1px;
-    font-family: 'Bubblegum Sans';
-    font-size: 1.3rem;
-  }
+    font-family: Poppins;
+    font-size: 0.9rem;
+}
 
-  main .container-p9 .answer ul{
+main .container-p9 .answer ul{
     padding: 0 20px 20px;
-  }
+}
 
 main .container-p9 .answer li{
     margin-bottom: 7px;
@@ -860,20 +863,18 @@ main .container-p9 .answer li{
     header .section-headear {
         margin-left: 4rem;
     }
-    
 
     header .section-headear h1 {
         font-size: 4rem;
     }
 
     header .section-headear .subtitle-1 {
-        font-size: 1.4rem;
-        width: 25rem;
+        font-size: 2.9rem;
     }
     
     header .section-headear .subtitle-2 {
-        font-size: 1rem;
-        width: 20rem;
+        font-size: 1.2rem;
+        width: 22rem;
     }
 
     header .header-banner-img{
@@ -887,7 +888,7 @@ main .container-p9 .answer li{
     }
 
     /*--------------------- Inicio Main ---------------------*/
-    main{
+    .main{
         margin-top: 45rem;
     }
 
@@ -899,7 +900,7 @@ main .container-p9 .answer li{
     }
 
     main .container-p2 .owl-carousel p{
-        font-size: 1rem;
+        font-size: 0.9rem;
     }
 
     /*--------------------- container-p3 ---------------------*/
@@ -955,8 +956,8 @@ main .container-p9 .answer li{
 
     /*--------------------- container-p7 ---------------------*/
     main .container-p7 .owl-carousel p{
-        font-size: 1.2rem;
-        margin-top: 1.2rem;
+        font-size: 1rem;
+        margin-top: 0.5rem;
     }
 }
 
@@ -984,8 +985,14 @@ main .container-p9 .answer li{
     }
 
     header .section-headear .subtitle-1 {
-        font-size: 1.3rem;
+        font-size: 2.2rem;
         width: 25rem;
+        line-height: 43px;
+    }
+
+    header .section-headear .subtitle-2 {
+        font-size: 1.2rem;
+        margin-top: 10px;
     }
 
     header .header-banner-img{
@@ -993,7 +1000,7 @@ main .container-p9 .answer li{
     }
 
     /*--------------------- Inicio Main ---------------------*/
-    main{
+    .main{
         margin-top: 40rem;
     }
 
@@ -1051,7 +1058,7 @@ main .container-p9 .answer li{
     }
 
     main .container-p5 h1{
-        margin-bottom: 3rem;
+        margin-bottom: 1rem;
     }
     
     main .container-p5 .img-container-p5 {
@@ -1151,7 +1158,7 @@ main .container-p9 .answer li{
     }
 
     main .container-p8 p{
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
 
     /*--------------------- container-p9 ---------------------*/
@@ -1159,7 +1166,6 @@ main .container-p9 .answer li{
         margin-top: 8rem;
         font-size: 2rem;
     }
-    
 }
 
 @media screen and (max-width: 1250px){
@@ -1203,7 +1209,7 @@ main .container-p9 .answer li{
     }
 
     /*--------------------- Main ---------------------*/
-    main{
+    .main{
         margin-top: 35rem;
     }
 
@@ -1215,7 +1221,7 @@ main .container-p9 .answer li{
         border-radius: 20px;
         width: 700px;
         height: 400px;
-        margin-top: 0.5rem;
+        margin-top: 1rem;
     }
 
     /*--------------------- Container-p2 ---------------------*/
@@ -1230,10 +1236,6 @@ main .container-p9 .answer li{
     /*--------------------- Container-p3 ---------------------*/
     main .container-p3 .img-container-p3 {
         width: 66rem;
-    }
-
-    main .container-p3 .title{
-        font-size: 1.5rem;
     }
 
     main .container-p3 .owl-carousel p{
@@ -1251,7 +1253,6 @@ main .container-p9 .answer li{
     /*--------------------- Container-p4 ---------------------*/
     main .container-p4{
         margin-top: 7.6rem;
-        /*height: 43rem;*/
         height: 70rem;
         padding: 2rem 0;
     }
@@ -1280,6 +1281,14 @@ main .container-p9 .answer li{
     }
 
     /*--------------------- Container-p5 ---------------------*/
+    main .container-p5{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 1rem;
+        padding: 5rem 0 2rem 0;
+    }
+    
     main .container-p5 iframe{
         width: 700px;
         height: 400px;
@@ -1324,7 +1333,7 @@ main .container-p9 .answer li{
 
     main .container-p7 .owl-carousel{
         width: 95%;
-        margin-top: 2rem;
+        margin-top: 1.7rem;
     }
 
     /*--------------------- container-p8 ---------------------*/
@@ -1338,10 +1347,6 @@ main .container-p9 .answer li{
         margin-top: 20vw;
     }
 
-    main .container-p8 p{
-        font-size: 1rem;
-    }
-
     main .container-p8 iframe{
         border-radius: 10px;
         width: 500px;
@@ -1352,7 +1357,7 @@ main .container-p9 .answer li{
     /*--------------------- container-p9 ---------------------*/
     main .container-p9 h1{
         margin-top: 7rem;
-        font-size: 1.7rem;
+        font-size: 1.8rem;
     }
 }
 
@@ -1361,6 +1366,7 @@ main .container-p9 .answer li{
     .navbar {
         flex-direction: column;
         align-items: flex-start;
+        padding-bottom: 20px;
     }
 
     .toggle-button {
@@ -1390,6 +1396,17 @@ main .container-p9 .answer li{
         display: flex;
     }
 
+    header .section-headear {
+        top: 0rem;
+        position: relative;
+        z-index: 1;
+    }
+
+    /*--------------------- Container-p1 ---------------------*/
+    .main{
+        margin-top: 6rem;
+    }
+
     /*--------------------- Container-p2 ---------------------*/
     main .container-p2 .owl-carousel{
         margin-top: 3vw;
@@ -1417,13 +1434,14 @@ main .container-p9 .answer li{
     }
 
     header .section-headear .subtitle-1 {
-        font-size: 1.1rem;
-        width: 20rem;
+        font-size: 1.9rem;
+        width: 21rem;
+        line-height: 33px;
     }
     
     header .section-headear .subtitle-2 {
-        font-size: 0.9rem;
-        width: 18rem;
+        font-size: 1.1rem;
+        width: 17rem;
     }
 
     header .section-headear .btn-section-headear{
@@ -1433,11 +1451,7 @@ main .container-p9 .answer li{
         margin-top: 2rem;
     }
 
-    /*--------------------- Main ---------------------*/
-    main{
-        margin-top: 29rem;
-    }
-
+    /*--------------------- container-p1 ---------------------*/
     main .container-p1 .br-title{
         display: block;
     }
@@ -1574,17 +1588,29 @@ main .container-p9 .answer li{
     }
 
     main .container-p8 p{
-        font-size: 1rem;
+        font-size: 0.9rem;
     }
 
     /*--------------------- container-p9 ---------------------*/
     main .container-p9 h1{
         margin-top: 5rem;
-        font-size: 2.5rem;
+        font-size: 1.6rem;
     }
 
     main .container-p9 .wrapper {
         width: 80%;
+    }
+
+    main .container-p9 .question {
+        font-size: 1.3rem;
+        font-weight: 600;
+        padding: 20px 80px 12px 20px;
+        position: relative;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        letter-spacing: 1px;
+        font-family: 'Bubblegum Sans';
     }
 }
 
@@ -1607,9 +1633,13 @@ main .container-p9 .answer li{
 
 @media screen and (max-width: 560px) {
     /*--------------------- Header ---------------------*/
+    .navbar {
+        padding-bottom: 5px;
+    }
+
     .logo-navbar{
         padding: 0 0 0 0rem;
-        width: 110px;
+        width: 100px;
     }
 
     .toggle-button {
@@ -1620,7 +1650,7 @@ main .container-p9 .answer li{
 
     header .section-headear {
         margin-left: 1rem;
-        top: 7rem;
+        top: 0rem;
     }
 
     header .section-headear .br-title-header-1{
@@ -1632,8 +1662,9 @@ main .container-p9 .answer li{
     }
 
     header .section-headear .subtitle-1 {
-        font-size: 1.1rem;
-        width: 21.875rem;
+        font-size: 1.5rem;
+        width: 15rem;
+        line-height: 27px;
     }
     
     header .section-headear .subtitle-2 {
@@ -1642,12 +1673,12 @@ main .container-p9 .answer li{
     }
 
     header .header-banner-decore{
-        width: 250px;
+        width: 290px;
     }
 
     /*--------------------- Main ---------------------*/
-    main{
-        margin-top: 26.5rem;
+    .main{
+        margin-top: 5rem;
     }
 
     main .container-p1 h1{
@@ -1691,7 +1722,6 @@ main .container-p9 .answer li{
     }
 
     main .container-p3 .title{
-        font-size: 1.4rem;
         width: 80%;
         margin-left: auto;
         margin-right: auto;
@@ -1728,7 +1758,8 @@ main .container-p9 .answer li{
     }
 
     main .container-p4 h1{
-        font-size: 1.4rem;
+        font-size: 1.5rem;
+        width: 90%;
     }
 
     main .container-p4 .img-container-p4 {
@@ -1775,7 +1806,6 @@ main .container-p9 .answer li{
         margin-bottom: 0rem;
     }
 
-
     /*--------------------- Container-p6 ---------------------*/
     main .container-p6{
         margin-top: 1rem;
@@ -1794,7 +1824,7 @@ main .container-p9 .answer li{
     }
 
     main .container-p6 .data-oferta{
-        font-size: 1rem;
+        font-size: 0.7rem;
         margin-top: 1.5rem;
         width: 90%;
     }
@@ -1867,11 +1897,6 @@ main .container-p9 .answer li{
 
 @media screen and (max-width: 400px) {
     /*--------------------- Header ---------------------*/
-    .logo-navbar{
-        padding: 0 0 0 0rem;
-        width: 110px;
-    }
-
     .toggle-button {
         top: 2rem;
         right: 2rem;
@@ -1880,11 +1905,10 @@ main .container-p9 .answer li{
 
     header .section-headear {
         margin-left: 1rem;
-        top: 6.5rem;
     }
 
     header .section-headear .subtitle-1 {
-        font-size: 1.1rem;
+        font-size: 1.3rem;
         width: 100%;
     }
     
@@ -1900,8 +1924,8 @@ main .container-p9 .answer li{
     }
 
     /*--------------------- Main ---------------------*/
-    main{
-        margin-top: 28rem;
+    .main{
+        margin-top: 3.7rem;
     }
 
     main .container-p1 h1{
@@ -1909,13 +1933,17 @@ main .container-p9 .answer li{
     }
 
     /*--------------------- Container-p2 ---------------------*/
+    main .container-p3 .title{
+        font-size: 1.7rem;
+    }
+
     main .container-p2 .owl-carousel .swiper-slide h1{
         font-size: 1.2rem;
     }
 
     /*--------------------- Container-p3 ---------------------*/
     main .container-p3 .owl-carousel .swiper-slide h1{
-        font-size: 1.2rem;
+        font-size: 1.3rem;
         margin-bottom: 1rem;
     }
 
@@ -1929,13 +1957,13 @@ main .container-p9 .answer li{
 
     /*--------------------- Container-p4 ---------------------*/
     main .container-p4 h1{
-        font-size: 1.2rem;
+        font-size: 1.4rem;
         height: auto;
     }
 
     /*--------------------- Container-p5 ---------------------*/
     main .container-p5 h1{
-        font-size: 1.2rem;
+        font-size: 1.3rem;
         width: 95%;
     }
 
