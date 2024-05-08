@@ -287,6 +287,7 @@ main .container-p3 .subtitle-1 {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    margin-top: 1rem;
 }
 
 main .container-p3 .img-container-p3-passaro {
@@ -1749,6 +1750,10 @@ main .container-p9 .answer li{
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 0.5rem;
+    }
+
+    main .container-p3 .subtitle-1 {
+        margin-bottom: 0;
     }
 
     main .container-p3 .owl-carousel{
