@@ -1389,7 +1389,7 @@ main .container-p9 .answer li{
 
     .navbar-links ul li a {
         padding: .5rem 1rem;
-        color: #ffffff;
+        color: #000000;
     }
 
     .navbar-links.active {
@@ -1634,7 +1634,7 @@ main .container-p9 .answer li{
 @media screen and (max-width: 560px) {
     /*--------------------- Header ---------------------*/
     .navbar {
-        padding-bottom: 5px;
+        padding-bottom: 25px;
     }
 
     .logo-navbar{
