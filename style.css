@@ -10,6 +10,7 @@ body {
     margin: 0;
     padding: 0;
     background: #F3F3F3;
+    font-family: "Poppins";
 }
 
 ::-webkit-scrollbar {
@@ -72,7 +73,7 @@ body {
 .navbar-links li a {
     display: block;
     color: #000000;
-    font-family: 'Bubblegum Sans';
+
     font-weight: 500;
     font-size: 1.5rem;
     text-underline-offset: 7px;
@@ -112,7 +113,7 @@ header .section-headear {
 header .section-headear h1 {
     font-size: 4.7rem;
     letter-spacing: 1px;
-    font-family: 'Bubblegum Sans';
+
     color: #000000;
 }
 
@@ -126,7 +127,7 @@ header .section-headear .subtitle-1 {
     color: #000000;
     margin-top: 1vw;
     font-weight: 500;
-    font-family: 'Bubblegum Sans';
+
 }
 
 header .section-headear .subtitle-2 {
@@ -135,7 +136,7 @@ header .section-headear .subtitle-2 {
     width: 26rem;
     margin-top: 15px;
     font-weight: 300;
-    font-family: 'Bubblegum Sans';
+
 }
 
 header .section-headear .btn-section-headear{
@@ -194,7 +195,7 @@ main .container-p1 .br-title{
 
 main .container-p1 h1{
     font-size: 2rem;
-    font-family: 'Bubblegum Sans';
+
     color: #2D2D2D;
     text-align: center;
 }
@@ -240,7 +241,7 @@ main .container-p2 .owl-carousel .swiper-slide{
 
 main .container-p2 .owl-carousel .swiper-slide h1{
     font-size: 1.6rem;
-    font-family: 'Bubblegum Sans';
+ 
     color: #2D2D2D;
     letter-spacing: 1px;
 }
@@ -272,7 +273,7 @@ main .container-p3{
 
 main .container-p3 .title{
     font-size: 2rem;
-    font-family: 'Bubblegum Sans';
+
     color: #2D2D2D;
     text-align: center;
     letter-spacing: 1px;
@@ -320,7 +321,7 @@ main .container-p3 .owl-carousel{
 
 main .container-p3 .owl-carousel .swiper-slide h1{
     font-size: 1.6rem;
-    font-family: 'Bubblegum Sans';
+
     color: #2D2D2D;
     text-align: center;
     margin-bottom: 1.5rem;
@@ -390,7 +391,7 @@ main .container-p4 iframe{
 
 main .container-p4 h1{
     font-size: 2rem;
-    font-family: 'Bubblegum Sans';
+
     color: #2D2D2D;
     text-align: center;
     z-index: 1;
@@ -440,7 +441,7 @@ main .container-p5 .img-container-p5 {
 
 main .container-p5 h1{
     font-size: 2rem;
-    font-family: 'Bubblegum Sans';
+
     color: #2D2D2D;
     text-align: center;
     z-index: 1;
@@ -498,7 +499,7 @@ main .container-p6 .img-mascotes .img{
 main .container-p6 h1{
     margin-top: 7rem;
     font-size: 2.5rem;
-    font-family: 'Bubblegum Sans';
+ 
     color: #2D2D2D;
     letter-spacing: 1px;
     text-align: center;
@@ -518,7 +519,7 @@ main .container-p6 .card-price{
 
 main .container-p6 .card-price h2{
     font-size: 2rem;
-    font-family: 'Bubblegum Sans';
+ 
     color: #ffffff;
     text-align: center;
     margin-top: 4rem;
@@ -529,7 +530,7 @@ main .container-p6 .card-price p{
     text-align: center;
     color: #ffffff;
     font-size: 4rem;
-    font-family: 'Bubblegum Sans';
+
     line-height: 2.1rem;
     letter-spacing: 2px;
 }
@@ -603,7 +604,7 @@ main .container-p7 .img-container-p7{
 main .container-p7 h1{
     margin-top: 8rem;
     font-size: 2.5rem;
-    font-family: 'Bubblegum Sans';
+
     color: #2D2D2D;
     letter-spacing: 1px;
     text-align: center;
@@ -630,7 +631,7 @@ main .container-p7 .owl-carousel .swiper-slide{
 main .container-p7 .owl-carousel .swiper-slide h1{
     margin-top: 2rem;
     font-size: 1.5rem;
-    font-family: 'Bubblegum Sans';
+   
     color: #2D2D2D;
     text-align: start;
 }
@@ -657,7 +658,7 @@ main .container-p8{
 main .container-p8 h1{
     margin-top: 18rem;
     font-size: 2.5rem;
-    font-family: 'Bubblegum Sans';
+  
     color: #2D2D2D;
     letter-spacing: 1px;
     text-align: center;
@@ -696,7 +697,7 @@ main .container-p9{
 main .container-p9 h1{
     margin-top: 8rem;
     font-size: 2.5rem;
-    font-family: 'Bubblegum Sans';
+  
     color: #2D2D2D;
     letter-spacing: 1px;
     text-align: center;
@@ -729,7 +730,7 @@ main .container-p9 h1{
     align-items: center;
     cursor: pointer;
     letter-spacing: 1px;
-    font-family: 'Bubblegum Sans';
+   
 }
   
 .question::after {
@@ -1137,7 +1138,7 @@ main .container-p9 .answer li{
         text-align: center;
         color: #ffffff;
         font-size: 3rem;
-        font-family: 'Bubblegum Sans';
+   
         line-height: 1rem;
         letter-spacing: 1px;
     }
