@@ -119,7 +119,7 @@ header .section-headear .btn-section-headear{
     width: 25rem;
     height: 3.5rem;
     margin-top: 2.5rem;
-    border-radius: 12px;
+    border-radius: 8px;
     border: none;
     background: #368D43;
     color: #ffffff;
@@ -289,7 +289,7 @@ main .container-p3 .owl-carousel{
     margin-left: auto;
     margin-right: auto;
     background: #7a7a7a20;
-    border-radius: 50px;
+    border-radius: 20px;
     -webkit-box-shadow: 4px 4px 20px 2px rgba(0,0,0,0.22); 
     box-shadow: 4px 4px 20px 2px rgba(0,0,0,0.22);
 }
@@ -319,6 +319,7 @@ main .container-p3 .owl-carousel img{
     margin-left: auto;
     margin-right: auto;
     margin-top: 2rem;
+    border-radius: 20px;
 }
 
 main .container-p3 .btn-section-headear{
@@ -397,6 +398,7 @@ main .container-p4 .owl-carousel img{
     margin-left: auto;
     margin-right: auto;
     margin-top: 2rem;
+    border-radius: 20px;
 }
 
 /*--------------------- container-p5 ---------------------*/
@@ -1218,7 +1220,7 @@ main .container-p9 .answer li{
     }
 
     main .container-p1 iframe{
-        border-radius: 20px;
+        border-radius: 8px;
         width: 700px;
         height: 400px;
         margin-top: 1rem;
