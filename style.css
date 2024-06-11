@@ -994,13 +994,15 @@ main .container-p9 .answer li{
 
     main .container-p6 .card-price{
         width: 400px;
-        height: 600px;
+        height: 650px;
     }
 
     main .container-p6 .img-mascotes .img{
         display: flex;
         gap: 1vw;
     }
+
+    
 }
 
 @media screen and (max-width: 1300px) {
@@ -1126,7 +1128,7 @@ main .container-p9 .answer li{
 
     main .container-p6 .card-price{
         width: 350px;
-        height: 500px;
+        height: 550px;
     }
 
     main .container-p6 .card-price h2{
@@ -1208,10 +1210,17 @@ main .container-p9 .answer li{
     }
 }
 
+asdasdasd 
+
 @media screen and (max-width: 1200px){
     /*--------------------- container-p6 ---------------------*/
     main .container-p6{
         margin-top: 1vw;
+    }
+
+    main .container-p6 .card-price{
+        width: 400px;
+        height: 500px;
     }
 }
 
@@ -1849,7 +1858,7 @@ main .container-p9 .answer li{
 
     main .container-p6 .card-price{
         width: 330px;
-        height: 470px;
+        height: 550px;
     }
 
     main .container-p6 .data-oferta{
